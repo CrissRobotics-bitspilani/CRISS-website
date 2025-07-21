@@ -369,7 +369,7 @@ export const Alumnis22 = [
         img: l1,
         position: "Team Captain",
         linkedin: "https://www.linkedin.com/in/nikhil-handa-6b42b2257/",
-        team: "Technical",
+        team: "",
         batch: "2022"
     },
     {
@@ -378,7 +378,7 @@ export const Alumnis22 = [
         img: l2,
         position: "Team Manager",
         linkedin: "https://www.linkedin.com/in/chaitanya-agrawal-8332aa27a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        team: "management",
+        team: "",
         batch: "2022"
     },
     {
@@ -387,7 +387,7 @@ export const Alumnis22 = [
         img: b1,
         position: "APOGEE Coordinator",
         linkedin: "https://www.linkedin.com/in/moksh-gupta-b09440249/",
-        team: "management",
+        team: "",
         batch: "2022"
     },
     {
@@ -396,7 +396,7 @@ export const Alumnis22 = [
         img: b6,
         position: "Events and Marketing Head",
         linkedin: "https://www.linkedin.com/in/shravan-gupta-701b4925a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        team: "management",
+        team: "",
         batch: "2022"
     },
     {
@@ -405,7 +405,7 @@ export const Alumnis22 = [
         img: b4,
         position: "BOSM Coordinator",
         linkedin: "https://www.linkedin.com/in/kanak-gupta-a6684427b/",
-        team: "management",
+        team: "",
         batch: "2022"
     },
     {
@@ -414,7 +414,7 @@ export const Alumnis22 = [
         img: b2,
         position: "Web Dev Head",
         linkedin: "https://www.linkedin.com/in/aarya-jindal/",
-        team: "management",
+        team: "",
         batch: "2022"
     },
     {
@@ -423,7 +423,7 @@ export const Alumnis22 = [
         img: b5,
         position: "Business Relations Head",
         linkedin: "https://www.linkedin.com/in/ayush-singla-370147268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        team: "management",
+        team: "",
         batch: "2022"
     },
     {
@@ -432,7 +432,7 @@ export const Alumnis22 = [
         img: b3,
         position: "Sponsorship Head",
         linkedin: "https://www.linkedin.com/in/aditya-thole-a80889269/",
-        team: "management",
+        team: "",
         batch: "2022"
     },
     {
@@ -441,7 +441,7 @@ export const Alumnis22 = [
         img: b8,
         position: "Software Lead",
         linkedin: "https://www.linkedin.com/in/jash-karani-247996173/",
-        team: "technical",
+        team: "",
         batch: "2022"
     },
     {
@@ -450,7 +450,7 @@ export const Alumnis22 = [
         img: b9,
         position: "Software Integration Engineer",
         linkedin: "https://www.linkedin.com/in/ritvikmongia/",
-        team: "technical",
+        team: "",
         batch: "2022"
     },
     {
@@ -459,7 +459,7 @@ export const Alumnis22 = [
         img: b10,
         position: "Mechanical Lead",
         linkedin: "https://www.linkedin.com/in/amarthya-guru/",
-        team: "technical",
+        team: "",
         batch: "2022"
     },
     {
@@ -468,7 +468,7 @@ export const Alumnis22 = [
         img: b11,
         position: "Mechanical Integration Engineer",
         linkedin: "https://www.linkedin.com/in/sanjeiv-suresh-460524255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        team: "technical",
+        team: "",
         batch: "2022"
     },
     {
@@ -477,7 +477,7 @@ export const Alumnis22 = [
         img: b12,
         position: "Electrical Lead",
         linkedin: "https://www.linkedin.com/in/harshith-reddy-358275312",
-        team: "technical",
+        team: "",
         batch: "2022"
     },
     {
@@ -486,7 +486,7 @@ export const Alumnis22 = [
         img: b13,
         position: "Electrical Vice Lead",
         linkedin: "https://www.linkedin.com/in/vidyarenu-swamy-8a4940319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        team: "technical",
+        team: "",
         batch: "2022"
     },
     {
@@ -495,7 +495,7 @@ export const Alumnis22 = [
         img: b14,
         position: "Payload Lead",
         linkedin: "https://www.linkedin.com/in/psohanp/",
-        team: "technical",
+        team: "",
         batch: "2022"
     },
     {
@@ -504,7 +504,7 @@ export const Alumnis22 = [
         img: b15,
         position: "Experimentation Lead",
         linkedin: "https://www.linkedin.com/in/shubhang-gautam-821b09251/",
-        team: "technical",
+        team: "",
         batch: "2022"
     },
     {
@@ -513,7 +513,7 @@ export const Alumnis22 = [
         img: s1,
         position: "Core Engineer",
         linkedin: "https://www.linkedin.com/in/abhimanyu-bhowmik-734326256/",
-        team: "technical",
+        team: "",
         batch: "2022"
     },
     {
@@ -522,7 +522,7 @@ export const Alumnis22 = [
         img: m1,
         position: "Core Engineer",
         linkedin: null,
-        team: "technical",
+        team: "",
         batch: "2022"
     },
     {
@@ -531,7 +531,7 @@ export const Alumnis22 = [
         img: e1,
         position: "Core Engineer",
         linkedin: "https://www.linkedin.com/in/pranav-sud-3a136b285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        team: "technical",
+        team: "",
         batch: "2022"
     },
     {
@@ -540,7 +540,7 @@ export const Alumnis22 = [
         img: p1,
         position: "Core Engineer",
         linkedin: "https://www.linkedin.com/in/sahaj-sethi-67568a201",
-        team: "technical",
+        team: "",
         batch: "2022"
     },
     {
@@ -549,7 +549,7 @@ export const Alumnis22 = [
         img: advaitshukla,
         position: "Management Team",
         linkedin: null,
-        team: "management",
+        team: "",
         batch: "2022"
     },
     {
@@ -558,7 +558,7 @@ export const Alumnis22 = [
         img: deepaksaini,
         position: "Management Team",
         linkedin: null,
-        team: "management",
+        team: "",
         batch: "2022"
     },
     {
@@ -567,7 +567,7 @@ export const Alumnis22 = [
         img: shivtiwari,
         position: "Management Team",
         linkedin: "https://www.linkedin.com/in/shiv-tiwari-647557258/",
-        team: "management",
+        team: "",
         batch: "2022"
     },
     {
@@ -576,7 +576,7 @@ export const Alumnis22 = [
         img: b7,
         position: "Management Team",
         linkedin: "https://www.linkedin.com/in/vedant-sindhwani-93720b145",
-        team: "management",
+        team: "",
         batch: "2022"
     },
 ];
