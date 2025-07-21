@@ -40,13 +40,9 @@ export default function Alumni() {
                         <TabButton isSelected={selectedBatch === '2021'} onSelect={() => setSelectedBatch('2021')}>Batch of 2021</TabButton>
                         <TabButton isSelected={selectedBatch === '2022'} onSelect={() => setSelectedBatch('2022')}>Batch of 2022</TabButton>
                     </menu>
-
                     <div className={styles.dropmenuContainer}>
-                         <AlumniDropMenu selectedBatch={selectedBatch} handleSelect={setSelectedBatch} />
+                         <AlumniDropMenu selectedBatch={selectedBatch} handleSelect={handleSelect} />
                     </div>
-
-                    
-
                     
                     {selectedBatch === 'founders' && (
                      <>

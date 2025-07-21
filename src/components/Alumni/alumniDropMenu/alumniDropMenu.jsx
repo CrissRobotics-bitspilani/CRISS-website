@@ -40,7 +40,7 @@ const AlumniDropMenu = ({ selectedBatch, handleSelect }) => {
     ];
 
     return (
-        <div className="alumniDropMenu" ref={selectRef}>
+        <div className="dropMenu" ref={selectRef}>
             <div
                 className={`select-selected ${isOpen ? 'select-arrow-active' : ''}`}
                 onClick={toggleDropdown}
@@ -52,7 +52,7 @@ const AlumniDropMenu = ({ selectedBatch, handleSelect }) => {
                     {options.map((option) => (
                         <div
                             key={option.value}
-                            className={`select-batch ${selectedBatch === option.value ? 'selected' : ''}`}
+                            className={`select-team ${selectedBatch === option.value ? 'selected' : ''}`}
                             onClick={() => handleClick(option.value)}
                         >
                             {option.label}
