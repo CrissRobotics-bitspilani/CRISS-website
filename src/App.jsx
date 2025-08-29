@@ -16,37 +16,33 @@ const Funding = lazy(() => import("./components/Funding/Funding"));
 ReactGA.initialize("G-N42MZLRJ3F");
 
 function App() {
-  const [showLoader, setShowLoader] = useState(true);
+    // const [showLoader, setShowLoader] = useState(true);
 
-  useEffect(() => {
-      const timer = setTimeout(() => {
-          setShowLoader(false);
-      }, 1500);
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //         setShowLoader(false);
+    //     }, 1500);
 
-      return () => clearTimeout(timer);
-  }, []);
+    //     return () => clearTimeout(timer);
+    // }, []);
 
-  return (
-      <>
-          {showLoader ? (
-              <Loader />
-          ) : (
-              <Suspense fallback={<Loader />}>
-                  <Routes>
-                      <Route path="/" element={<Home />} />
-                      <Route path="/sponsorship" element={<Sponsorship />} />
-                      <Route path="/competitions" element={<Competitions />} />
-                      <Route path="/team" element={<Team />} />
-                      <Route path="/alumni" element={<Alumni />} />
-                      <Route path="/developers" element={<Developer />} />
-                      {/* <Route path="/irc" element={<IRCPage />} /> */}
-                      {/* <Route path="/events" element={<Events />} /> */}
-                      <Route path="/funding" element={<Funding />} />
-                  </Routes>
-              </Suspense>
-          )}
-      </>
-  );
+    return (
+        <>
+            <Suspense fallback={<Loader />}>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/sponsorship" element={<Sponsorship />} />
+                    <Route path="/competitions" element={<Competitions />} />
+                    <Route path="/team" element={<Team />} />
+                    <Route path="/alumni" element={<Alumni />} />
+                    <Route path="/developers" element={<Developer />} />
+                    {/* <Route path="/irc" element={<IRCPage />} /> */}
+                    {/* <Route path="/events" element={<Events />} /> */}
+                    <Route path="/funding" element={<Funding />} />
+                </Routes>
+            </Suspense>
+        </>
+    );
 }
 
 export default App;
