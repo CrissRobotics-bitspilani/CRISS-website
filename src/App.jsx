@@ -37,7 +37,7 @@ function App() {
                     <Route path="/alumni" element={<Alumni />} />
                     <Route path="/developers" element={<Developer />} />
                     {/* <Route path="/irc" element={<IRCPage />} /> */}
-                    {/* <Route path="/events" element={<Events />} /> */}
+                    <Route path="/events" element={<Events />} />
                     {/* <Route path="/funding" element={<Funding />} /> */}
                 </Routes>
             </Suspense>
