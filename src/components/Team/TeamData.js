@@ -488,16 +488,6 @@ export const ManagementTeam = [
         batch: "2024"
     },
     {
-        id: "8",
-        name: "Shreyas Gupta",
-        img: ma_shreyas,
-        position: "Member",
-        linkedin: null,
-        github: null,
-        insta: "https://www.instagram.com/shreyasgupta21",
-        batch: "2024"
-    },
-    {
         id: "25",
         name: "Shashwat Sanskrit",
         img: ma_shashwat,
