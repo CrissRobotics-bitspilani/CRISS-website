@@ -638,13 +638,13 @@ export const SoftwareTeam = [
     },
     {
         id: "12",
-        name: "Dev Arora",
+        name: "Dev Dinesh Arora",
         img: s_dev,
         position: "Member",
         linkedin: "https://www.linkedin.com/in/dev-arora-397b4630a/",
         github: "https://github.com/DevApparentlyCodes",
         insta: "https://www.instagram.com/dev._arora/",
-        batch: "2023"
+        batch: "2024"
     },
 ]
 
