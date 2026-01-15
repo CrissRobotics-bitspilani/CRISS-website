@@ -309,7 +309,6 @@ import ma_rishabh from "../../assets/images/Team/2024/Management/ma_rishabh.webp
 import ma_saanidhya from "../../assets/images/Team/2024/Management/ma_saanidhya.webp";
 import ma_shashwat from "../../assets/images/Team/2024/Management/ma_shashwat.webp";
 import ma_shlok from "../../assets/images/Team/2024/Management/ma_shlok.webp";
-import ma_shreyas from "../../assets/images/Team/2024/Management/ma_shreyas.webp";
 import ma_tushar from "../../assets/images/Team/2024/Management/ma_tushar.webp";
 import ma_vedansh from "../../assets/images/Team/2024/Management/ma_vedansh.webp";
 import ma_sarthak from "../../assets/images/Team/2024/Management/ma_sarthak.webp";
