@@ -305,7 +305,6 @@ import ma_aarav from "../../assets/images/Team/2024/Management/ma_aarav.webp";
 import ma_bhavya from "../../assets/images/Team/2024/Management/ma_bhavya.webp";
 import ma_daksh from "../../assets/images/Team/2024/Management/ma_daksh.webp";
 import ma_meet from "../../assets/images/Team/2024/Management/ma_meet.webp";
-import ma_parth from "../../assets/images/Team/2024/Management/ma_parth.webp";
 import ma_rishabh from "../../assets/images/Team/2024/Management/ma_rishabh.webp";
 import ma_saanidhya from "../../assets/images/Team/2024/Management/ma_saanidhya.webp";
 import ma_shashwat from "../../assets/images/Team/2024/Management/ma_shashwat.webp";
@@ -435,16 +434,6 @@ export const ManagementTeam = [
         linkedin: "https://www.linkedin.com/in/sarthak-shrivastava-212466310/",
         github: "https://github.com/sarthak19ok",
         insta: "https://www.instagram.com/_sarthhakk_/",
-        batch: "2024"
-    },
-    {
-        id: "3",
-        name: "Parth Agrawal",
-        img: ma_parth,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/p-agrawal5",
-        github: "https://github.com/parthlyawake",
-        insta: "https://www.instagram.com/parth_agrawal53?igsh=MTRyczVvemg1NGpzMQ==",
         batch: "2024"
     },
     {
