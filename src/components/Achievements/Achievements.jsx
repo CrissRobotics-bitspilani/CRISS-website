@@ -109,17 +109,17 @@ export default function Achievements() {
 
                                             <div className="award-badge">
                                                 <span></span>
-                                                <p>{achievement.award}</p>
+                                               <p>{achievement.award}</p>
                                             </div>
                                         </div>
                                         <div className="card-image">
-                                            <img src={achievement.image} alt={achievement.title} />
+                                            <img src={achievement.image} alt={achievement.title} draggable={false}/>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="timeline-dot">
-                                    <img src={achievement.logo} alt="Achievement Logo" />
+                                    <img src={achievement.logo} alt="Achievement Logo" draggable={false}/>
                                 </div>
                             </div>
                         ))}

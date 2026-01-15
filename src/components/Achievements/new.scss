@@ -7,16 +7,16 @@
 
 .timeline {
     position: relative;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 0;
 }
 
 .timeline-line {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 3px;
+    width: 3.8px;
     height: 100%;
     background: #14A1E8;
 
@@ -34,7 +34,8 @@
     &.left {
         .timeline-content {
             // text-align: left;
-            padding-left: calc(80px);
+            padding-top: 30px;
+            padding-left: calc(600px - 456px - 60px);
 
             @media (max-width: 768px) {
                 padding-right: 0;
@@ -44,7 +45,7 @@
         }
 
         .year-badge {
-            left: calc(55% + 0px);
+            left: calc(600px + 60px);
 
             @media (max-width: 768px) {
                 left: 70px;
@@ -55,7 +56,9 @@
 
     &.right {
         .timeline-content {
-            padding-left: calc(50% + 60px);
+            padding-top: 30px;
+            // padding-left: calc(50% + 60px);
+            padding-left: 660px;
             // text-align: left;
 
             @media (max-width: 768px) {
@@ -64,7 +67,7 @@
         }
 
         .year-badge {
-            left: calc(45% - 60px);
+            left: calc(600px - 65px - 60px);
 
             @media (max-width: 768px) {
                 left: 70px;
@@ -102,7 +105,7 @@
     width: 65px;
     height: 65px;
     background: #fff;
-    border: 3px solid #14A1E8;
+    border: 3.8px solid #14A1E8;
     border-radius: 50%;
     z-index: 1;
 
@@ -131,6 +134,7 @@
     //     box-shadow: 0 10px 40px rgba(99, 102, 241, 0.2);
     // }
 }
+
 .card-body {
 
     h3 {
@@ -156,11 +160,14 @@
 
     span {
         transform: translateY(8px);
-        height: 7px;
-        width: 7px;
+        height: 6px;
+        width: 6px;
         border-radius: 50%;
         background-color: #08F7FE;
+        min-width: 6px;
+        flex-shrink: 0;
     }
+
 
     p {
         font-size: 14px;
@@ -202,33 +209,241 @@
     }
 }
 
-// Responsive Design
-@media (max-width: 768px) {
+
+@media (max-width: 1240px) {
+
     .mainContainer {
-        padding: 2rem 1rem;
+        width: 100%;
+        padding: 4rem 0rem;
     }
 
-    .achievements-header {
-        margin-bottom: 3rem;
+    .timeline {
+        width: 100%;
+        max-width: none;
+        margin: 0 auto;
+    }
 
-        h1 {
-            font-size: 2rem;
-        }
+    .timeline-line {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 3.8px;
+        height: 100%;
+        background: #14A1E8;
 
-        p {
-            font-size: 1rem;
+        @media (max-width: 768px) {
+            left: 30px;
         }
     }
 
     .timeline-item {
-        margin-bottom: 3rem;
+        position: relative;
+        margin-bottom: 4rem;
+        opacity: 0;
+        animation: fadeInUp 0.6s ease forwards;
+
+        &.left {
+            .timeline-content {
+                width: 100%;
+                padding-left: calc(50% - 416px - 60px);
+            }
+
+            .year-badge {
+                left: calc(50% + 50px);
+            }
+        }
+
+        &.right {
+            .timeline-content {
+                width: 100%;
+                padding-left: calc(50% + 60px);
+            }
+
+            .year-badge {
+                left: calc(50% - 65px - 50px);
+            }
+        }
+    }
+
+    .year-badge {
+        position: absolute;
+        top: 50px;
+        left: -30px;
+        width: 80px;
+        height: 80px;
+        font-weight: 700;
+        font-size: 24px;
+        color: #14A1E8;
+
+        @media (max-width: 768px) {
+            width: 60px;
+            height: 60px;
+            font-size: 0.9rem;
+        }
+    }
+
+    .timeline-dot {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 65px;
+        height: 65px;
+        background: #fff;
+        border: 3.8px solid #14A1E8;
+        border-radius: 50%;
+        z-index: 1;
+
+        img {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+    .content-card {
+        width: 416px;
+        padding: 18px;
+    }
+}
+
+@media (max-width: 980px) {
+    .mainContainer {
+        width: 100%;
+        padding: 4rem 3rem;
+    }
+
+    .timeline {
+        width: fit-content;
+    }
+
+    .timeline-line {
+        left: 110px;
+    }
+
+    .timeline-item {
+        margin-bottom: 4rem;
+
+        &.left,
+        &.right {
+            .timeline-content {
+                padding-top: 20px;
+                padding-left: calc(110px + 60px);
+            }
+
+            .year-badge {
+                top: 34px;
+                left: 0px;
+            }
+        }
+    }
+
+    .year-badge {
+        // display: none;
+    }
+
+    .timeline-dot {
+        top: 20px;
+        left: 110px;
+        width: 55px;
+        height: 55px;
+    }
+
+    .content-card {
+        width: calc(88vw - 6rem - 170px);
+        padding: 24px;
+        height: fit-content;
+        border-radius: 4px;
     }
 
     .card-body {
-        padding: 1.5rem;
-
-        h2 {
-            font-size: 1.25rem;
+        h3 {
+            font-size: 24px;
+            margin-bottom: 14px;
+            text-align: left;
         }
+
+        .description {
+            font-size: 13px;
+            line-height: 1.75;
+            margin-bottom: 20px;
+        }
+    }
+
+    .award-badge {
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+
+        p {
+            font-size: 14px;
+            line-height: 1.75;
+            font-weight: 500;
+        }
+    }
+
+    .card-image {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 8px;
+        display: none;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        &:hover img {
+            transform: scale(1.05);
+        }
+    }
+}
+
+
+@media (max-width: 780px) {
+    .mainContainer {
+        width: 100%;
+        padding: 0rem 2rem;
+    }
+
+    .timeline {
+        width: fit-content;
+    }
+
+    .timeline-line {
+        left: 20px;
+    }
+
+    .timeline-item {
+        margin-bottom: 2rem;
+
+        &.left,
+        &.right {
+            .timeline-content {
+                padding-top: 15px;
+                padding-left: calc(20px + 40px);
+            }
+        }
+    }
+
+    .year-badge {
+        display: none;
+    }
+
+    .timeline-dot {
+        top: 15px;
+        left: 20px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .content-card {
+        width: calc(100vw - 4rem - 80px);
+        padding: 24px;
     }
 }
