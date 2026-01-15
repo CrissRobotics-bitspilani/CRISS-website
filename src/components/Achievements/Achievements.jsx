@@ -1,15 +1,17 @@
+import { useEffect, useState } from "react";
 import { Helmet } from 'react-helmet';
 import styles from "./achievements.module.scss";
+import "./timeline.scss";
 
 import Navbar from "../Header/Navbar/Navbar";
 import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 import Footer from "../Footer/Footer";
+import { motion } from "framer-motion";
+import { slideAnimation } from "../Header/Motion/Motion";
 
 import erc from "../../assets/images/Achievements/Logo/erc.jpg";
 import irdc from "../../assets/images/Achievements/Logo/irc.png";
 import robofest from "../../assets/images/Achievements/Logo/robofest.png";
-
-import "./new.scss";
 
 const achievements = [
     {
@@ -75,6 +77,14 @@ const achievements = [
 ];
 
 export default function Achievements() {
+
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 800);
+    useEffect(() => {
+        const handleResize = () => setIsMobile(window.innerWidth < 800);
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     return (
         <>
             <Helmet>
@@ -102,24 +112,26 @@ export default function Achievements() {
                                         <span>{achievement.year}</span>
                                     </div>
 
-                                    <div className="content-card">
+                                    <motion.div
+                                        className="content-card"
+                                        {...slideAnimation(isMobile ? "right" : `${achievement.side}`, 0.5)}>
                                         <div className="card-body">
                                             <h3>{achievement.title}</h3>
                                             <p className="description">{achievement.description}</p>
 
                                             <div className="award-badge">
                                                 <span></span>
-                                               <p>{achievement.award}</p>
+                                                <p>{achievement.award}</p>
                                             </div>
                                         </div>
                                         <div className="card-image">
-                                            <img src={achievement.image} alt={achievement.title} draggable={false}/>
+                                            <img src={achievement.image} alt={achievement.title} draggable={false} />
                                         </div>
-                                    </div>
+                                    </motion.div>
                                 </div>
 
                                 <div className="timeline-dot">
-                                    <img src={achievement.logo} alt="Achievement Logo" draggable={false}/>
+                                    <img src={achievement.logo} alt="Achievement Logo" draggable={false} />
                                 </div>
                             </div>
                         ))}
