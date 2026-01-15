@@ -15,6 +15,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 
     h2 {
         text-align: center;
@@ -37,11 +38,6 @@ header {
 
     }
 
-    .mainContainer {
-        min-height: 100vh;
-        width: 100%;
-    }
-
 }
 
 @media (max-width :600px) {
@@ -54,70 +50,4 @@ header {
     }
 }
 
-/* Timeline layout */
-.timeline {
-  padding: 2rem 0;
-}
-
-/* Opposite content (date on desktop) */
-.oppositeContent {
-  margin: auto 0;
-}
-
-/* Date text */
-.dateText {
-  font-weight: bold;
-}
-
-/* Timeline content spacing */
-.timelineContent {
-  padding: 12px 16px;
-}
-
-/* Achievement card */
-.card {
-  padding: 1rem;
-  border-radius: 1rem;
-  background-color: #ffffff;
-  transition: all 0.3s ease;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-
-  &:hover {
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-    transform: scale(1.01);
-  }
-}
-
-/* Dark mode support */
-:global(.dark) .card {
-  background-color: #1f2937; // tailwind gray-800
-}
-
-/* Mobile date */
-.mobileDate {
-  display: none;
-  margin-bottom: 0.25rem;
-  font-weight: 600;
-  color: #6b7280; // gray-500
-}
-
-/* Show mobile date on small screens */
-@media (max-width: 768px) {
-  .mobileDate {
-    display: block;
-  }
-
-  .desktopOnly {
-    display: none;
-  }
-}
-
-/* Description text */
-.description {
-  color: #374151; // gray-700
-}
-
-:global(.dark) .description {
-  color: #d1d5db; // gray-300
-}
 
