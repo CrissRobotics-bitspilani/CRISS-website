@@ -12,6 +12,7 @@ const Developer = lazy(() => import("./components/Developer/Developer"));
 // const IRCPage = lazy(() => import("./components/IRCPage/IRCPage"));  
 const Events = lazy(() => import("./components/Events/Events"));
 const Funding = lazy(() => import("./components/Funding/Funding"));
+const Achievements = lazy(() => import("./components/Achievements/Achievements"));
 
 ReactGA.initialize("G-N42MZLRJ3F");
 
@@ -36,6 +37,7 @@ function App() {
                     <Route path="/team" element={<Team />} />
                     <Route path="/alumni" element={<Alumni />} />
                     <Route path="/developers" element={<Developer />} />
+                    <Route path="/achievements" element={<Achievements />} />
                     {/* <Route path="/irc" element={<IRCPage />} /> */}
                     {/* <Route path="/events" element={<Events />} /> */}
                     {/* <Route path="/funding" element={<Funding />} /> */}

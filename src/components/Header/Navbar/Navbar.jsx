@@ -65,6 +65,9 @@ export default function Navbar({ color }) {
               <NavLink to="/competitions" activeclassname="active">Competitions</NavLink>
             </li>
             <li>
+              <NavLink to="/achievements" activeclassname="active">Achievements</NavLink>
+            </li>
+            <li>
               <NavLink to="/team" activeclassname="active">Team</NavLink>
             </li>
             <li>
@@ -95,6 +98,9 @@ export default function Navbar({ color }) {
             </li>
             <li>
               <NavLink to="/competitions" activeclassname="active" onClick={handleHamOpen}>Competitions</NavLink>
+            </li>
+            <li>
+              <NavLink to="/achievements" activeclassname="active" onClick={handleHamOpen}>Achievements</NavLink>
             </li>
             <li>
               <NavLink to="/team" activeclassname="active" onClick={handleHamOpen}>Team</NavLink>
