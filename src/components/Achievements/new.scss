@@ -444,6 +444,28 @@
 
     .content-card {
         width: calc(100vw - 4rem - 80px);
-        padding: 24px;
+        padding: 22px;
+    }
+
+    .card-body {
+        h3 {
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        .description {
+            font-size: 12px;
+            line-height: 1.65;
+            margin-bottom: 16px;
+        }
+    }
+
+    .award-badge {
+        gap: 12px;
+
+        p {
+            font-size: 12px;
+            line-height: 1.65;
+        }
     }
 }
