@@ -291,16 +291,16 @@ export const BoardTeam = [
     }
 ];
 
-import aditikamal from "../../assets/images/Team/2023/Management/aditikamal.webp";
-import vanshjain from "../../assets/images/Team/2023/Management/vanshjain.webp";
-import arnavsahoo from "../../assets/images/Team/2023/Management/arnavsahoo.webp";
+//import aditikamal from "../../assets/images/Team/2023/Management/aditikamal.webp";
+//import vanshjain from "../../assets/images/Team/2023/Management/vanshjain.webp";
+//import arnavsahoo from "../../assets/images/Team/2023/Management/arnavsahoo.webp";
 import bhoomimotihar from "../../assets/images/Team/2023/Management/bhoomimotihar.webp";
 import nimitgarg from "../../assets/images/Team/2023/Management/nimitgarg.webp";
 import arnavgarg from "../../assets/images/Team/2023/Management/arnavgarg.webp";
-import govindbhageria from "../../assets/images/Team/2023/Management/govindbhageria.webp";
+//import govindbhageria from "../../assets/images/Team/2023/Management/govindbhageria.webp";
 import navyamgoyal from "../../assets/images/Team/2023/Management/navyamgoyal.webp";
 import swapnil from "../../assets/images/Team/2023/Management/swapnil.webp";
-import lakshayjain from "../../assets/images/Team/2023/Management/lakshayjain.webp";
+//import lakshayjain from "../../assets/images/Team/2023/Management/lakshayjain.webp";
 import ma_aarav from "../../assets/images/Team/2024/Management/ma_aarav.webp";
 import ma_bhavya from "../../assets/images/Team/2024/Management/ma_bhavya.webp";
 import ma_daksh from "../../assets/images/Team/2024/Management/ma_daksh.webp";
@@ -314,7 +314,7 @@ import ma_vedansh from "../../assets/images/Team/2024/Management/ma_vedansh.webp
 import ma_sarthak from "../../assets/images/Team/2024/Management/ma_sarthak.webp";
 
 export const ManagementTeam = [
-    {
+    {/*
         id: "9",
         name: "Lakshay Jain",
         img: lakshayjain,
@@ -323,8 +323,8 @@ export const ManagementTeam = [
         github: null,
         insta: "https://www.instagram.com/socalledlakshay?igsh=MWh2ZnB5ajd4b2QwZQ==",
         batch: "2023"
-    },
-    {
+    */},
+    {/*
         id: "10",
         name: "Aditi Kamal",
         img: aditikamal,
@@ -333,9 +333,9 @@ export const ManagementTeam = [
         github: null,
         insta: "https://www.instagram.com/diti.ko?igsh=MzRlODBiNWFlZA==",
         batch: "2023"
-    },
+    */},
     
-    {
+    {/*
         id: "13",
         name: "Vansh",
         img: vanshjain,
@@ -344,8 +344,8 @@ export const ManagementTeam = [
         github: null,
         insta: "https://www.instagram.com/vansh_jain_100?igsh=bHdibnpheGFldjJt&utm_source=qr",
         batch: "2023"
-    },
-    {
+    */},
+    {/*
         id: "15",
         name: "Arnav Sahoo",
         img: arnavsahoo,
@@ -354,7 +354,7 @@ export const ManagementTeam = [
         github: null,
         insta: "https://www.instagram.com/arnav.sahoo02?igsh=MXBlYzJkcXBmYmduaA==",
         batch: "2023"
-    },
+    */},
     {
         id: "18",
         name: "Bhoomi Motihar",
@@ -375,7 +375,7 @@ export const ManagementTeam = [
         insta: "https://www.instagram.com/_nimit_garg_?igsh=MWxjeWc3dWlyNHRvbQ%3D%3D&utm_source=qr",
         batch: "2023"
     },
-    {
+    {/*
         id: "20",
         name: "Govind Bhageria",
         img: govindbhageria,
@@ -384,7 +384,7 @@ export const ManagementTeam = [
         github: null,
         insta: "https://www.instagram.com/go_withthe_vind?igsh=MXR3dGYxeWQ5MXA4MQ==",
         batch: "2023"
-    },
+    */},
     {
         id: "27",
         name: "Arnav Garg",
@@ -785,7 +785,7 @@ export const MechanicalTeam = [
 
 import e1 from "../../assets/images/Team/2022/Electrical/e1.webp";
 import e2 from "../../assets/images/Team/2023/Electrical/e2.webp";
-import e3 from "../../assets/images/Team/2023/Electrical/e3.webp";
+//import e3 from "../../assets/images/Team/2023/Electrical/e3.webp";
 import e7 from "../../assets/images/Team/2023/Electrical/e7.webp";
 import e_aditya from "../../assets/images/Team/2024/Electrical/e_aditya.webp";
 import e_krish from "../../assets/images/Team/2024/Electrical/e_krish.webp";
@@ -823,7 +823,7 @@ export const ElectricalTeam = [
         insta: "",
         batch: "2022"
     },
-    {
+    {/*
         id: "3",
         name: "Aditya Patil",
         img: e3,
@@ -832,8 +832,8 @@ export const ElectricalTeam = [
         github: null,
         insta: "https://www.instagram.com/thereal_patil?igsh=YnU0cTY5NDZoZWJs",
         batch: "2023"
-    },
-    {
+    */},
+    {/*
         id: "4",
         name: "Aditi Kamal",
         img: aditikamal,
@@ -842,7 +842,7 @@ export const ElectricalTeam = [
         github: null,
         insta: "https://www.instagram.com/diti.ko?igsh=MzRlODBiNWFlZA==",
         batch: "2023"
-    },
+    */},
      {
         id: "5",
         name: "Vibhav Jain",
