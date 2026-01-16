@@ -25,25 +25,6 @@ h1 span {
   overflow-x: hidden;
   background-color: #ffffff;
 
-  .teamPic {
-    margin-top: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 4rem;
-    width: 80%;
-    max-width: 1200px;
-    cursor: pointer;
-    /* transition: transform 2s; */
-    overflow: hidden;
-
-    .PicOne {
-      border-radius: 2rem;
-      height: 100%;
-      width: 100%;
-    }
-  }
-
   .total {
     max-width: 1200px;
     display: flex;
@@ -55,6 +36,7 @@ h1 span {
   }
 
   .becomeSponz {
+    max-width: 1400px;
     background-color: #d5dfef;
     text-align: center;
     margin-left: 10%;
@@ -62,6 +44,10 @@ h1 span {
     padding: 4%;
     border-radius: 2.5rem;
 
+    @media(max-width: 1100px) {
+      margin: 0rem 2rem;
+      padding: 2rem;
+    }
 
     p {
       font-family: "Inter";
@@ -69,10 +55,19 @@ h1 span {
       font-size: 18px;
       font-weight: 500;
       line-height: 30px;
+
+      @media(max-width: 600px) {
+        font-size: 14px;
+        line-height: 26px;
+      }
     }
 
     p:first-child {
       padding-bottom: 20px;
+
+      @media(max-width: 600px) {
+        padding-bottom: 12px;
+      }
     }
 
     h3 {
@@ -80,12 +75,21 @@ h1 span {
       color: #00275B;
       font-weight: bolder;
       padding-bottom: 30px;
+
+      @media(max-width: 600px) {
+        font-size: 30px;
+        padding-bottom: 25px;
+      }
     }
 
     .one {
       font-weight: 700px;
       color: #000;
       font-size: 24px;
+
+      @media(max-width: 600px) {
+        font-size: 20px;
+      }
     }
 
     .two {
@@ -93,10 +97,15 @@ h1 span {
       color: #14a1e8;
       font-size: 24px;
       text-transform: uppercase;
+
+      @media(max-width: 600px) {
+        font-size: 20px;
+      }
     }
   }
 
   .whySponz {
+    max-width: 1400px;
     border-radius: 2.5rem;
     height: fit-content;
     margin: 8rem 10%;
@@ -108,12 +117,27 @@ h1 span {
     border: 3px solid #00275B;
     gap: 4rem;
 
+    @media(max-width: 1100px) {
+      margin: 6rem 2rem;
+      padding: 2rem;
+      gap: 3.5rem;
+    }
+
+    @media(max-width: 600px) {
+      gap: 20px;
+    }
+
     h3 {
       font-size: 40px;
       color: #14a1e8;
       font-weight: bolder;
       padding-bottom: 30px;
       text-align: center;
+
+      @media(max-width: 600px) {
+        font-size: 30px;
+        padding-bottom: 0px;
+      }
     }
 
     .whySponzContent {
@@ -121,26 +145,59 @@ h1 span {
       flex-direction: row;
       gap: 4rem;
 
+      @media(max-width: 850px) {
+        flex-direction: column-reverse;
+      }
+
       p {
         font-family: "Inter";
         color: #000;
         font-size: 18px;
         font-weight: 500;
         line-height: 30px;
+
+        @media(max-width: 600px) {
+          font-size: 14px;
+          line-height: 26px;
+        }
       }
 
       .pic1 {
         width: 400px;
         height: auto;
+
+        @media(max-width: 850px) {
+          display: none;
+        }
       }
 
       .pic2 {
         height: 250px;
         width: auto;
+
+        @media(max-width: 850px) {
+          display: none;
+        }
       }
 
       img {
         object-fit: contain;
+      }
+    }
+
+    .mobilePic {
+      display: none;
+
+      @media(max-width: 850px) {
+        display: block;
+        height: 300px;
+        width: auto;
+        border-radius: 1.3rem;
+      }
+
+      @media(max-width: 600px) {
+        width: calc(100vw - 4rem);
+        height: auto;
       }
     }
   }
@@ -155,6 +212,12 @@ h1 span {
       font-weight: 400;
       margin-bottom: 6rem;
       font-style: italic;
+
+      @media(max-width: 600px) {
+        padding: 0 3rem;
+        font-size: 16px;
+        margin-bottom: 4rem;
+      }
     }
 
     .heading2 {
@@ -163,13 +226,22 @@ h1 span {
       margin: 4rem auto 4rem auto;
       font-weight: bolder;
       color: #000;
+
+      @media(max-width: 600px) {
+        font-size: 32px;
+        margin-bottom: 3rem;
+      }
     }
   }
 
   .brochure {
+    width: 100%;
     background-color: #d5dfef;
     padding: 5%;
     margin-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     h3 {
       font-size: 40px;
@@ -177,6 +249,11 @@ h1 span {
       font-weight: bolder;
       padding-bottom: 30px;
       text-align: center;
+
+      @media(max-width: 600px) {
+        font-size: 30px;
+        padding-bottom: 25px;
+      }
     }
 
     .brochureContent {
@@ -185,6 +262,16 @@ h1 span {
       padding: 0 7rem;
       align-items: center;
       gap: 7rem;
+      max-width: 1200px;
+
+      @media(max-width: 1050px) {
+        padding: 0 2rem;
+        gap: 5rem;
+      }
+
+      @media(max-width: 600px) {
+        flex-direction: column-reverse;
+      }
 
       .brochureLink {
         img {
@@ -211,305 +298,24 @@ h1 span {
             font-size: 22px;
             color: #00275b;
             padding-bottom: 6px;
+
+            @media(max-width: 600px) {
+              font-size: 20px;
+            }
           }
 
           p {
             color: #000;
             font-size: 16px;
             line-height: 20px;
+
+            @media(max-width: 600px) {
+              font-size: 14px;
+              line-height: 18px;
+            }
           }
         }
       }
     }
-  }
-}
-
-
-@media (max-width: 600px) {
-
-  .total {
-    gap: 2rem 3rem;
-    margin-bottom: 5rem;
-  }
-
-  h1 {
-    font-size: 32px;
-    font-weight: 650;
-  }
-
-  .heading1 {
-    margin-top: 8rem;
-  }
-
-  .becomeSponz,
-  .whySponz,
-  .text3,
-  .OurSponsors p {
-    font-size: 12px;
-    line-height: 18px;
-  }
-
-  .whySponz {
-    margin-top: 3.5rem;
-  }
-
-  .whySponz p {
-    margin-top: 2.5rem;
-  }
-
-  .text3 {
-    margin-top: 3.5rem;
-  }
-
-  .text3 p {
-    margin-top: 2.5rem;
-  }
-
-  .one,
-  .two {
-    font-size: 18px;
-  }
-
-  .OurSponsors p {
-    margin-bottom: 3rem;
-  }
-
-  .OurSponsors .heading2 {
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .brochureDIV {
-    font-size: 15px;
-    line-height: 18px;
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-
-  .brochureDIV p {
-    width: 100%;
-  }
-
-  .brochureDIV .heading3 {
-    margin-bottom: 3rem;
-  }
-}
-
-@media (max-width: 900px) {
-
-  .becomeSponz {
-    margin-top: -5rem;
-  }
-
-  .becomeSponz {
-    margin-left: 0px;
-    margin-right: 0px;
-    font-size: 16px;
-    line-height: 24px;
-    padding: 8%;
-  }
-
-  .whySponz {
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 6rem;
-
-    p {
-      margin-top: 5rem;
-    }
-  }
-
-  .text3 {
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 6rem;
-
-    p {
-      margin-top: 5rem;
-    }
-  }
-
-  .one,
-  .two {
-    font-size: 24px;
-  }
-}
-
-@media (max-width: 750px) {
-  .sponsorshipContainers {
-    .heading1 {
-      margin-top: 9rem;
-    }
-
-    h1 {
-      font-size: 36px;
-    }
-
-    .OurSponsors {
-      p {
-        margin-bottom: 9rem;
-      }
-
-      .heading2 {
-        margin-top: 5rem;
-        margin-bottom: 3rem;
-        font-size: 36px;
-      }
-    }
-
-    .Pic2,
-    .Pic3 {
-      width: 25rem;
-    }
-  }
-}
-
-@media (max-width: 1000px) {
-
-  .becomeSponz {
-    margin-top: -3rem;
-  }
-
-  .heading1 {
-    margin-top: 11rem;
-  }
-
-  .whySponz {
-    display: flex;
-    flex-direction: column;
-    margin-top: 8rem;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-
-    p {
-      text-align: center;
-      margin-top: 6rem;
-      padding-left: 8%;
-      padding-right: 8%;
-    }
-  }
-
-  .text3 {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: 8rem;
-    padding-right: 0px;
-    padding-left: 0px;
-
-    p {
-      text-align: center;
-      margin-top: 6rem;
-      padding-left: 8%;
-      padding-right: 8%;
-    }
-  }
-
-  .OurSponsors {
-    .heading2 {
-      margin-top: 7rem;
-      margin-bottom: 5rem;
-    }
-  }
-
-  .Pic2,
-  .Pic3 {
-    width: 28rem;
-  }
-
-  .brochureDIV {
-    line-height: 25px;
-    padding-right: 10%;
-    gap: 15%;
-  }
-}
-
-@media (max-width: 1100px) {
-  .heading1 {
-    margin-top: 12rem;
-  }
-
-  .whySponz,
-  .text3 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-
-  .becomeSponz {
-    margin-top: -2rem;
-  }
-
-  .Pic2,
-  .Pic3 {
-    width: 32rem;
-  }
-}
-
-@media (max-width: 600px) {
-
-  .Pic2,
-  .Pic3 {
-    width: 20rem;
-  }
-}
-
-@media (max-width: 1300px) {
-  .brochureDIV {
-    line-height: 28px;
-  }
-}
-
-@media (max-width: 1150px) {
-  .brochureDIV {
-    line-height: 27px;
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 1050px) {
-  .brochureDIV {
-    line-height: 26px;
-    font-size: 19px;
-  }
-}
-
-@media (max-width: 900px) {
-  .brochureDIV {
-    line-height: 23px;
-  }
-}
-
-@media (max-width: 850px) {
-  .brochureDIV {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-left: 0%;
-    padding-right: 0%;
-    gap: 0%;
-    padding-bottom: 7rem;
-
-    img {
-      margin-bottom: 4rem;
-    }
-
-    p {
-      width: 90%;
-      padding-left: 5%;
-      padding-right: 5%;
-    }
-  }
-
-  .heading3 {
-    margin-bottom: 5rem;
-  }
-}
-
-@media(max-width: 400px) {
-
-  .total {
-    gap: 1.5rem 2rem;
   }
 }

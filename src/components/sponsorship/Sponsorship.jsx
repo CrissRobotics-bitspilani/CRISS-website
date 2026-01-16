@@ -1,16 +1,10 @@
-import React, { useRef, useEffect } from "react";
 import styles from "./sponsorship.module.scss";
 import { Helmet } from "react-helmet";
 import SponzCard from "./SponzCard/SponzCard";
 import { motion } from "framer-motion";
-import {
-    fadeAnimation,
-    HeadAnimation,
-    slideAnimation,
-} from "../Header/Motion/Motion";
+import { HeadAnimation, slideAnimation } from "../Header/Motion/Motion";
 
 import SponsorshipPic1 from "../../assets/images/Sponsorship/Sponsorship-1.png";
-import SponsorshipPic2 from "../../assets/images/Sponsorship/Sponsorship-2.png";
 import SponsorshipPic3 from "../../assets/images/Sponsorship/Sponsorship-3.png";
 
 import bits from "../../assets/images/Homepage/bits.png";
@@ -54,7 +48,7 @@ const supportContent = [
     },
 ]
 
-export default function sponsorship() {
+export default function Sponsorship() {
     return (
         <>
             <Helmet>
@@ -171,10 +165,6 @@ export default function sponsorship() {
                     </motion.div>
                 </div>
 
-                {/* <motion.div className={styles.teamPic} {...HeadAnimation("up", 0.1)}>
-                    <img src={SponsorshipPic1} className={styles.PicOne} />
-                </motion.div> */}
-
                 <div className={styles.whySponz}>
                     <h3>Why Sponsor Us ?</h3>
                     <div className={styles.whySponzContent}>
@@ -210,12 +200,17 @@ export default function sponsorship() {
                             {...slideAnimation("right", 0.5)}
                         />
                     </div>
+                    <motion.img
+                        src={SponsorshipPic1}
+                        className={styles.mobilePic}
+                        {...slideAnimation("left", 0.5)}
+                    />
                 </div>
 
                 <div className={styles.brochure}>
                     <h3>How Can You Support Us ?</h3>
                     <div className={styles.brochureContent}>
-                        <a  className={styles.brochureLink} href="https://online.fliphtml5.com/zusvs/vefu/" target="_blank">
+                        <a className={styles.brochureLink} href="https://online.fliphtml5.com/zusvs/vefu/" target="_blank">
                             <motion.img
                                 {...slideAnimation("left", 0.5)}
                                 src={brochureImg}
