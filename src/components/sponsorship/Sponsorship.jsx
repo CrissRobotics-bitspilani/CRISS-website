@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import "./sponsorship.css";
+import styles from "./sponsorship.module.scss";
 import { Helmet } from 'react-helmet';
 import SponzCard from "./SponzCard/SponzCard";
 import { motion } from "framer-motion";
@@ -37,34 +37,34 @@ export default function sponsorship() {
             <header>
                 <Navbar color="#00275B" />
             </header>
-            <main className="sponsorshipContainers">
+            <main className={styles.sponsorshipContainers}>
                 
-                    <motion.div className="teamPic" {...HeadAnimation("up", 0.1)}>
-                        <img src={SponsorshipPic1} className="PicOne" />
+                    <motion.div className={styles.teamPic} {...HeadAnimation("up", 0.1)}>
+                        <img src={SponsorshipPic1} className={styles.PicOne} />
                     </motion.div>
 
-                    <div className="text1">
+                    <div className={styles.text1}>
                         <motion.div  {...slideAnimation("up", 0.3)}  >
-                            <p><span className="one">CRISS</span> <span className="two">Robotics</span>, a student-led robotics and engineering company, is known for its excellence in design and innovation. The company competes in the University Rover Challenge, organized by the Mars Society, where it showcases its capabilities to leading scientists and technocrats. The company's success is attributed to its strategic partnership with partner sponsors, who are prominently featured on team merchandise and social media platforms such as Facebook, Instagram, and YouTube. CRISS Robotics also shines in <span className="three">APOGEE</span>, BITS Pilani's technical festival, where their projects attract a diverse audience of enthusiasts and industry professionals. This platform not only showcases their technical prowess but also offers opportunities for sponsor visibility and brand engagement. The company continues to push the boundaries of robotics innovation, representing BITS Pilani with pride and determination.</p>
+                            <p><span className={styles.one}>CRISS</span> <span className={styles.two}>Robotics</span>, a student-led robotics and engineering company, is known for its excellence in design and innovation. The company competes in the University Rover Challenge, organized by the Mars Society, where it showcases its capabilities to leading scientists and technocrats. The company's success is attributed to its strategic partnership with partner sponsors, who are prominently featured on team merchandise and social media platforms such as Facebook, Instagram, and YouTube. CRISS Robotics also shines in <span className="three">APOGEE</span>, BITS Pilani's technical festival, where their projects attract a diverse audience of enthusiasts and industry professionals. This platform not only showcases their technical prowess but also offers opportunities for sponsor visibility and brand engagement. The company continues to push the boundaries of robotics innovation, representing BITS Pilani with pride and determination.</p>
                         </motion.div>
                     </div>
 
-                    <div className="text2">
-                        <motion.img src={SponsorshipPic2} className="Pic2" {...slideAnimation("left", 0.5)} />
+                    <div className={styles.text2}>
+                        <motion.img src={SponsorshipPic2} className={styles.Pic2} {...slideAnimation("left", 0.5)} />
                         <motion.p {...slideAnimation("right", 0.5)}>Sponsoring CRISS Robotics presents a unique opportunity to align your brand with cutting-edge research and development at one of the world's most prestigious engineering institutions, <span className="three">BITS Pilani</span>. With a proud legacy of producing top-tier talent, our club exemplifies excellence in innovation and technical prowess. Your support will enable us to continue participating in international competitions, further enhance our technical capabilities, and realize groundbreaking solutions.</motion.p>
                     </div>
 
-                    <div className="text3">
-                        <motion.p {...slideAnimation("left", 0.5)}>By <span className="three">partnering with us</span>, your company will gain significant visibility among bright engineering students who represent the future workforce. Sponsorship benefits include prominent placement of your company's logo on our latest rover, extensive exposure through our active social media channels, and collaborative events during major festivals. These initiatives not only enhance your brand's visibility but also position your company as a forward-thinking leader committed to driving technological advancements.</motion.p>
-                        <motion.img src={SponsorshipPic3} className="Pic3" {...slideAnimation("right", 0.5)} />
+                    <div className={styles.text3}>
+                        <motion.p {...slideAnimation("left", 0.5)}>By <span className={styles.three}>partnering with us</span>, your company will gain significant visibility among bright engineering students who represent the future workforce. Sponsorship benefits include prominent placement of your company's logo on our latest rover, extensive exposure through our active social media channels, and collaborative events during major festivals. These initiatives not only enhance your brand's visibility but also position your company as a forward-thinking leader committed to driving technological advancements.</motion.p>
+                        <motion.img src={SponsorshipPic3} className={styles.Pic3} {...slideAnimation("right", 0.5)} />
                     </div>
 
-                    <div className="OurSponsors">
-                        <motion.h1 className="heading2" {...slideAnimation("up", 0.1)}>Our <span>Sponsors</span></motion.h1>
+                    <div className={styles.OurSponsors}>
+                        <motion.h1 className={styles.heading2} {...slideAnimation("up", 0.1)}>Our <span>Sponsors</span></motion.h1>
                         <motion.p {...slideAnimation("up", 0.3)}>Sponsors play a crucial role in the success story of CRISS Robotics. Their steadfast support, providing essential financial and technical resources, has been pivotal in driving our team forward towards achieving our objectives. We deeply appreciate the commitment and partnership of all our sponsors and look forward to nurturing and expanding these relationships in the pursuit of continued excellence and innovation. </motion.p>
                     </div>
 
-                    <div className="total">
+                    <div className={styles.total}>
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={bits} link="https://www.bits-pilani.ac.in/"></SponzCard> </motion.div>
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={optica} link="https://www.opticsindia.com/?srsltid=AfmBOopuqBhsJTXnQ8T3o_woMLNCIr3rGvuJ4t-7Yf_85pwPLK6AmXzg"></SponzCard></motion.div>
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={srt} link="https://www.shreerapid.com"></SponzCard></motion.div>
@@ -79,11 +79,11 @@ export default function sponsorship() {
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={skf} link="https://www.skf.com/in"></SponzCard></motion.div>
                     </div>
 
-                    <div className="Brochure">
-                        <motion.h1 className="heading3" {...slideAnimation("up", 0.1)}>Support <span>Us</span></motion.h1>
-                        <div className="brochureDIV">
+                    <div className={styles.Brochure}>
+                        <motion.h1 className={styles.heading3} {...slideAnimation("up", 0.1)}>Support <span>Us</span></motion.h1>
+                        <div className={styles.brochureDIV}>
                             <a href="https://online.fliphtml5.com/zusvs/vefu/" target="_blank"><motion.img {...slideAnimation("left", 0.5)} src={BROIMG}></motion.img></a>
-                            <motion.p {...slideAnimation("right", 0.5)} className="BrochurePara">We are multidisciplinary <span>space engineering and Robotics Research group</span> in BITS Pilani (Pilani campus) consisting of 60+ tech enthusiasts with a vision to innovate and develop <span>space exploration projects</span>. Our objective is to enhance on-board research and improve life-finding technologies in space while maintaining cost efficiency and innovation.</motion.p>
+                            <motion.p {...slideAnimation("right", 0.5)} className={styles.BrochurePara}>We are multidisciplinary <span>space engineering and Robotics Research group</span> in BITS Pilani (Pilani campus) consisting of 60+ tech enthusiasts with a vision to innovate and develop <span>space exploration projects</span>. Our objective is to enhance on-board research and improve life-finding technologies in space while maintaining cost efficiency and innovation.</motion.p>
                         </div>
                     </div>
             </main>
