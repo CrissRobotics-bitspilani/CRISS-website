@@ -54,77 +54,94 @@ h1 span {
     margin-bottom: 7rem;
   }
 
-  .text1 {
+  .becomeSponz {
     background-color: #d5dfef;
     text-align: center;
-    font-family: Inter;
-    color: #000;
-    font-size: 21px;
-    font-weight: 500;
     margin-left: 10%;
     margin-right: 10%;
-    padding: 4% 6%;
+    padding: 4%;
     border-radius: 2.5rem;
-    line-height: 30px;
+
+
+    p {
+      font-family: "Inter";
+      color: #000;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 30px;
+    }
+
+    p:first-child {
+      padding-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 40px;
+      color: #00275B;
+      font-weight: bolder;
+      padding-bottom: 30px;
+    }
 
     .one {
-      font-weight: bolder;
+      font-weight: 700px;
       color: #000;
-      font-size: 2.8rem;
+      font-size: 24px;
     }
 
     .two {
       font-weight: bolder;
       color: #14a1e8;
-      font-size: 2.8rem;
+      font-size: 24px;
       text-transform: uppercase;
     }
   }
 
-  .text2 {
-    margin-top: 10rem;
+  .whySponz {
+    border-radius: 2.5rem;
+    height: fit-content;
+    margin: 8rem 10%;
+    padding: 4%;
     display: flex;
-    margin-left: 10%;
-    gap: 12%;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 30px;
-    padding-right: 15%;
-    word-break: keep-all;
-    margin-bottom: 10rem;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    border: 3px solid #00275B;
+    gap: 4rem;
 
-    .Pic2 {
-      width: 38rem;
-      border-radius: 1rem;
-      cursor: pointer;
-    }
-  }
-
-  .text3 {
-    margin-top: 10rem;
-    padding-top: 6rem;
-    display: flex;
-    padding-left: 15%;
-    gap: 12%;
-    font-size: 2rem;
-    font-weight: 500;
-    padding-right: 10%;
-    word-break: keep-all;
-    padding-bottom: 6rem;
-    background-color: #d5dfef;
-    align-items: center;
-    line-height: 30px;
-
-    .three {
-      color: #00275b;
+    h3 {
+      font-size: 40px;
+      color: #14a1e8;
       font-weight: bolder;
+      padding-bottom: 30px;
+      text-align: center;
     }
 
-    .Pic3 {
-      width: 38rem;
-      border-radius: 2rem;
-      cursor: pointer;
+    .whySponzContent {
+      display: flex;
+      flex-direction: row;
+      gap: 4rem;
+
+      p {
+        font-family: "Inter";
+        color: #000;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+      }
+
+      .pic1 {
+        width: 400px;
+        height: auto;
+      }
+
+      .pic2 {
+        height: 250px;
+        width: auto;
+      }
+
+      img {
+        object-fit: contain;
+      }
     }
   }
 
@@ -132,66 +149,76 @@ h1 span {
     text-align: center;
 
     p {
-      padding: 0% 15%;
-      font-size: 2rem;
+      padding: 0 12%;
+      font-size: 20px;
       font-family: Inter;
       font-weight: 400;
-      margin-bottom: 12rem;
+      margin-bottom: 6rem;
+      font-style: italic;
     }
 
     .heading2 {
-      font-size: 5rem;
+      font-size: 40px;
       font-family: Inter;
-      margin: 8rem auto 6rem auto;
+      margin: 4rem auto 4rem auto;
       font-weight: bolder;
       color: #000;
     }
   }
 
-  .Brochure {
+  .brochure {
     background-color: #d5dfef;
+    padding: 5%;
     margin-bottom: 8rem;
 
-    .heading3 {
-      font-size: 5rem;
-      font-family: Inter;
-      padding-top: 3rem;
-      text-align: center;
+    h3 {
+      font-size: 40px;
+      color: #00275b;
       font-weight: bolder;
-      color: #000;
-      margin-bottom: 8rem;
+      padding-bottom: 30px;
+      text-align: center;
     }
 
-    .brochureDIV {
+    .brochureContent {
       display: flex;
-      padding-left: 15%;
-      padding-right: 15%;
-      font-family: Inter;
-      color: #000;
-      font-size: 23px;
-      font-weight: 500;
-      line-height: 30px;
+      flex-direction: row;
+      padding: 0 7rem;
       align-items: center;
-      padding-bottom: 10rem;
-      gap: 20%;
+      gap: 7rem;
 
-      p {
-        width: 45%;
-        text-align: center;
+      .brochureLink {
+        img {
+          cursor: pointer;
+        }
+
+        img:hover {
+          transition-delay: 0s;
+          box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        }
       }
 
-      img {
-        cursor: pointer;
-      }
+      .supportWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        font-family: "Inter";
 
-      img:hover {
-        transition-delay: 0s;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-      }
+        .supportContent {
+          display: flex;
+          flex-direction: column;
 
-      span {
-        color: #00275b;
-        font-weight: bolder;
+          h5 {
+            font-size: 22px;
+            color: #00275b;
+            padding-bottom: 6px;
+          }
+
+          p {
+            color: #000;
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
       }
     }
   }
@@ -214,19 +241,19 @@ h1 span {
     margin-top: 8rem;
   }
 
-  .text1,
-  .text2,
+  .becomeSponz,
+  .whySponz,
   .text3,
   .OurSponsors p {
     font-size: 12px;
     line-height: 18px;
   }
 
-  .text2 {
+  .whySponz {
     margin-top: 3.5rem;
   }
 
-  .text2 p {
+  .whySponz p {
     margin-top: 2.5rem;
   }
 
@@ -270,11 +297,11 @@ h1 span {
 
 @media (max-width: 900px) {
 
-  .text1 {
+  .becomeSponz {
     margin-top: -5rem;
   }
 
-  .text1 {
+  .becomeSponz {
     margin-left: 0px;
     margin-right: 0px;
     font-size: 16px;
@@ -282,7 +309,7 @@ h1 span {
     padding: 8%;
   }
 
-  .text2 {
+  .whySponz {
     font-size: 16px;
     line-height: 24px;
     margin-top: 6rem;
@@ -339,7 +366,7 @@ h1 span {
 
 @media (max-width: 1000px) {
 
-  .text1 {
+  .becomeSponz {
     margin-top: -3rem;
   }
 
@@ -347,7 +374,7 @@ h1 span {
     margin-top: 11rem;
   }
 
-  .text2 {
+  .whySponz {
     display: flex;
     flex-direction: column;
     margin-top: 8rem;
@@ -403,13 +430,13 @@ h1 span {
     margin-top: 12rem;
   }
 
-  .text2,
+  .whySponz,
   .text3 {
     font-size: 18px;
     line-height: 24px;
   }
 
-  .text1 {
+  .becomeSponz {
     margin-top: -2rem;
   }
 
