@@ -457,7 +457,7 @@ export const ManagementTeam = [
     },
     {
         id: "7",
-        name: "Shlok Kalangutkar",
+        name: "Shlok Amit Kalangutkar",
         img: ma_shlok,
         position: "Member",
         linkedin: "https://www.linkedin.com/in/shlok-kalangutkar-601000318?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlsrgqapGRO%2Bl1F%2FLWM%2F5UQ%3D%3D",
@@ -497,7 +497,7 @@ export const ManagementTeam = [
     },
     {
         id: "11",
-        name: "Bhavya Shevkani",
+        name: "Bhavya Murli Shevkani",
         img: ma_bhavya,
         position: "Member",
         linkedin: "https://www.linkedin.com/in/bhavya-shevkani-a43b54321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -586,7 +586,7 @@ export const SoftwareTeam = [
     },
         {
         id: "8",
-        name: "Adhyatma Agrawal",
+        name: "Adhyatma Deep Agrawal",
         img: s_adhyatma,
         position: "Member",
         linkedin: null,
@@ -606,7 +606,7 @@ export const SoftwareTeam = [
     },
     {
         id: "10",
-        name: "Atharv",
+        name: "Atharv Gaur",
         img: s_atharv,
         position: "Member",
         linkedin: "https://www.linkedin.com/in/atharv-gaur-a9ab3627a/",
@@ -713,7 +713,7 @@ export const MechanicalTeam = [
     },
     {
         id: "11",
-        name: "Ayush Bhandary",
+        name: "Ayush Girish Bhandary",
         img: m_ayush,
         position: "Member",
         linkedin: null,
@@ -791,6 +791,7 @@ import e_aditya from "../../assets/images/Team/2024/Electrical/e_aditya.webp";
 import e_krish from "../../assets/images/Team/2024/Electrical/e_krish.webp";
 import e_prasham from "../../assets/images/Team/2024/Electrical/e_prasham.webp";
 import e_vibhav from "../../assets/images/Team/2024/Electrical/e_vibhav.webp";
+import e_krishna from "../..assets/images/Team/2024/Electrical/e_krishna.webp";
 
 export const ElectricalTeam = [
     {
@@ -883,6 +884,16 @@ export const ElectricalTeam = [
         insta: "https://www.instagram.com/adi.sahai?igsh=MW90cHY2a2luYmlwNQ==",
         batch: "2024"
     },
+    {
+        id: "9",
+        name: "Krishna Dubey",
+        img: e_krishna,
+        position: "Member",
+        linkedin: "http://linkedin.com/in/krishna-dubey-5638aa248",
+        github: "https://github.com/justKrishna005",
+        insta: "https://www.instagram.com/kd_nth05/#",
+        batch: "2024"
+    },
 ];
 
 import p1 from "../../assets/images/Team/2022/Payload/p1.webp";
@@ -945,7 +956,7 @@ export const PayloadTeam = [
     },
     {
         id: "10",
-        name: "Atharv Zope",
+        name: "Atharv Rakesh Zope",
         img: p_atharv,
         position: "Member",
         linkedin: null,
