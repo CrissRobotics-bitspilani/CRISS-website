@@ -52,9 +52,9 @@ export default function Navbar({ color }) {
             <li>
               <NavLink to="/" activeclassname="active">Home</NavLink>
             </li>
-            {/* <li>
+            <li>
               <NavLink to="/irc" activeclassname="active">IRC</NavLink>
-            </li> */}
+            </li>
             {/* <li>
               <NavLink to="/events" activeclassname="active">Robowars</NavLink>
             </li> */}
@@ -90,9 +90,9 @@ export default function Navbar({ color }) {
             <li>
               <NavLink to="/" activeclassname="active" onClick={handleHamOpen}>Home</NavLink>
             </li>
-            {/* <li>
-              <NavLink to="/events" activeclassname="active" onClick={handleHamOpen}>Robowars</NavLink>
-            </li> */}
+            <li>
+              <NavLink to="/irc" activeclassname="active" onClick={handleHamOpen}>IRC</NavLink>
+            </li>
             <li>
               <NavLink to="/sponsorship" activeclassname="active" onClick={handleHamOpen}>Sponsorship</NavLink>
             </li>
