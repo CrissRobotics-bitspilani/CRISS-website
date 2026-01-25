@@ -21,22 +21,33 @@
   }
 
   .heading {
+    width: 100%;
     position: absolute;
     bottom: 20%;
-    left: 10%;
+    // left: 10%;
     color: #fff;
 
     h1 {
-      font-size: 120px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      // -webkit-text-stroke: 2px #14A1E8;
+      text-align: center;
+      font-size: 110px;
+      font-family: "Orbitron", sans-serif;
       letter-spacing: 4px;
     }
 
-    h6 {
+    h6,
+    h6 * {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
       font-weight: 500;
-      font-size: 50px;
-      color: #fff;
+      font-size: 48px;
+      opacity: 0.90;
+    }
+
+    .mobileHeading {
+      display: none;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 500;
+      opacity: 0.90;
     }
   }
 }
@@ -95,17 +106,9 @@
   .heroContainer {
     .heading {
       bottom: 7%;
-      left: 5%;
-    }
-  }
-}
 
-@media(max-width:850px) {
-
-  .heroContainer {
-    .heading {
       h1 {
-        font-size: 100px;
+        font-size: 90px;
       }
 
       h6 {
@@ -115,20 +118,27 @@
   }
 }
 
+
 @media(max-width: 600px) {
 
   .heroContainer {
     height: 100lvh;
 
     .heading {
+
       h1 {
-        font-size: 80px;
+        font-size: 60px;
         font-weight: 700;
       }
 
       h6 {
-        font-size: 36px;
-        font-weight: 500;
+        display: none;
+      }
+
+      .mobileHeading {
+        text-align: center;
+        display: block;
+        font-size: 30px;
       }
     }
   }
@@ -153,8 +163,7 @@
 
   .heroContainer {
     .heading {
-      bottom: 10%;
-      left: 5%;
+      bottom: 15%;
     }
   }
 

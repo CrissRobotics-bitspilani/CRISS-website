@@ -118,7 +118,7 @@ export default function Home() {
                     />
 
                     <div className="heading">
-                        <h1>CRISS</h1>
+                        <h1>CRISS Robotics</h1>
                         <h6>
                             {isVideoLoaded && (
                                 <Typewriter
@@ -131,6 +131,7 @@ export default function Home() {
                                 />
                             )}
                         </h6>
+                        <div className="mobileHeading">Consortium for Research in Space Systems</div>
                     </div>
                 </div>
 

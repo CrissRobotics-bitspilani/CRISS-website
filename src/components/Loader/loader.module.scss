@@ -25,7 +25,11 @@
         color: #00275B;
         font-size: 3.5rem;
         font-weight: 550;
-        font-family: Inter;
+        font-family: "Inter";
+
+        @media(max-width: 600px) {
+            font-size: 2rem;
+        }   
     }
 }
 
