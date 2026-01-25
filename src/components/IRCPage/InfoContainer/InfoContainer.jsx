@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./infocontainer.module.scss";
 
-export default function InfoContainer({heading, para1, para2, para3, para4}) {
+export default function InfoContainer({heading, para1, para2, para3, para4, para5}) {
     return(
         <div className={styles.infoContainer}>
             <h2>{heading}</h2>
@@ -9,6 +9,7 @@ export default function InfoContainer({heading, para1, para2, para3, para4}) {
             <p>{para2}</p>
             <p style={{display: (para3 === "null") ? "none" : null}}>{para3}</p>
             <p style={{display: (para4 === "null") ? "none" : null}}>{para4}</p>
+            <p style={{display: (para5 === "null") ? "none" : null}}>{para5}</p>
         </div>
     )
 }
