@@ -791,7 +791,7 @@ import e_aditya from "../../assets/images/Team/2024/Electrical/e_aditya.webp";
 import e_krish from "../../assets/images/Team/2024/Electrical/e_krish.webp";
 import e_prasham from "../../assets/images/Team/2024/Electrical/e_prasham.webp";
 import e_vibhav from "../../assets/images/Team/2024/Electrical/e_vibhav.webp";
-import e_krishna from "../..assets/images/Team/2024/Electrical/e_krishna.webp";
+import e_krishna from "../../assets/images/Team/2024/Electrical/e_krishna.webp";
 
 export const ElectricalTeam = [
     {
@@ -821,7 +821,7 @@ export const ElectricalTeam = [
         position: "Core Engineer",
         linkedin: "https://www.linkedin.com/in/pranav-sud-3a136b285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         github: null,
-        insta: "",
+        insta: null,
         batch: "2022"
     },
     {/*
