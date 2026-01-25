@@ -1,3 +1,13 @@
+:root {
+    --irc-primary: #14A1E8;
+    --irc-secondary: #00275B;
+    --irc-white: #FFFFFF;
+    --irc-light: #F8FAFC;
+    --irc-gray: #64748B;
+    --irc-dark: #1E293B;
+    --irc-border: #E2E8F0;
+}
+
 header {
     height: 8rem;
 
@@ -8,6 +18,137 @@ header {
 
 .ircpage {
     width: 100%;
+
+    .hero {
+        width: 100%;
+        min-height: calc(100vh - 8rem);
+        background: linear-gradient(135deg, var(--irc-secondary) 0%, #003d8f 100%);
+        padding: 100px 24px;
+        text-align: center;
+        color: var(--irc-white);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        @media screen and (max-width: 1000px) {
+            height: calc(100dvh - 7rem);
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            font-family: "Inter";
+
+            .ircBadge {
+                display: inline-block;
+                background: rgba(255, 255, 255, 0.15);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                padding: 10px 20px;
+                border-radius: 50px;
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 24px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+
+                @media(max-width: 600px) {
+                    font-size: 14px;
+                    padding: 8px 16px;
+                }
+            }
+
+            h1 {
+                font-size: 48px;
+                font-family: "Inter";
+                font-weight: 800;
+                margin-bottom: 24px;
+                letter-spacing: -0.03em;
+                line-height: 1.1;
+
+                @media(max-width: 600px) {
+                    font-size: 30px;
+                    margin-bottom: 14px;
+                    margin-bottom: 28px;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                opacity: 0.9;
+                max-width: 900px;
+                margin: 0 auto 48px;
+                line-height: 26px;
+
+                @media(max-width: 600px) {
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+            }
+
+            .ircHeroStats {
+                display: flex;
+                justify-content: center;
+                gap: 60px;
+
+                @media(max-width: 500px) {
+                    gap: 30px;
+                }
+
+                .statItem {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .statNumber {
+                        font-size: 30px;
+                        font-weight: 700;
+                        color: var(--irc-primary);
+
+                        @media(max-width: 600px) {
+                            font-size: 25px;
+                        }
+                    }
+
+                    .statLabel {
+                        font-size: 16px;
+                        opacity: 0.8;
+                        margin-top: 4px;
+
+                        @media(max-width: 600px) {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            .ircLogo {
+                margin-top: 26px;
+                height: 270px;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                @media(max-width: 600px) {
+                    margin-top: 16px;
+                    width: calc(100vw - 6rem);
+                    height: auto;
+                }
+
+                img {
+                    height: 100%;
+                    width: auto;
+                    object-fit: contain;
+
+                    @media(max-width: 600px) {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .infoSection {
@@ -15,13 +156,14 @@ header {
     margin-bottom: 4rem;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 36px;
+    overflow-x: hidden;
 }
 
 @media(max-width: 600px) {
     .infoSection {
-        margin-top: 2.2rem;
-        margin-bottom: 2.2rem;
-        gap: 15px;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        gap: 20px;
     }
 }
