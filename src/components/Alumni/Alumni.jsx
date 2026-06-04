@@ -6,7 +6,7 @@ import Navbar from "../Header/Navbar/Navbar";
 import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 import AlumniCard from "./AlumniCard/AlumniCard";
 import Footer from "../Footer/Footer";
-import {Alumnis22, Alumnis21, Alumnis20, FoundingMembers } from "./alumniData";
+import {Alumnis22, Alumnis21, Alumnis20, FoundingMembers, Alumnis23 } from "./alumniData";
 import FoundingCard from "./FoundingCard/FoundingCard";
 import TabButton from "../Team/TabButton/TabButton";
 import AlumniDropMenu from "./alumniDropMenu/alumniDropMenu";
@@ -39,6 +39,7 @@ export default function Alumni() {
                         <TabButton isSelected={selectedBatch === '2020'} onSelect={() => setSelectedBatch('2020')}>Batch of 2020</TabButton>
                         <TabButton isSelected={selectedBatch === '2021'} onSelect={() => setSelectedBatch('2021')}>Batch of 2021</TabButton>
                         <TabButton isSelected={selectedBatch === '2022'} onSelect={() => setSelectedBatch('2022')}>Batch of 2022</TabButton>
+                        <TabButton isSelected={selectedBatch === '2023'} onSelect={() => setSelectedBatch('2023')}>Batch of 2023</TabButton>
                     </menu>
                     <div className={styles.dropmenuContainer}>
                          <AlumniDropMenu selectedBatch={selectedBatch} handleSelect={handleSelect} />
@@ -64,6 +65,24 @@ export default function Alumni() {
                         </div>
                      </>
                     )}
+
+                    {selectedBatch === '2023' && (
+                     <>
+                        <h6>Batch of 2023</h6>
+                        <div className={styles.members}>
+                          {Alumnis23.map(data => (
+                            <AlumniCard
+                                key={data.id}
+                                name={data.name}
+                                profile={data.img}
+                                position={data.position}
+                                linkedin={data.linkedin}
+                                team={data.team}
+                            />
+                           ))}
+                        </div>
+                    </>
+                   )}
 
                    {selectedBatch === '2022' && (
                      <>

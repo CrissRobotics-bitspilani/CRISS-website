@@ -581,6 +581,236 @@ export const Alumnis22 = [
     },
 ];
 
+import p4 from "../../assets/images/Team/2023/Payload/p4.webp";
+import vanshikaagarwal from "../../assets/images/Team/2023/Management/vanshikaagarwal.webp";
+import manaschoudhary from "../../assets/images/Team/2023/Management/manaschoudhary.webp";
+import aishwarya from "../../assets/images/Team/2023/Management/aishwarya.webp";
+import niharikasharma from "../../assets/images/Team/2023/Management/niharikasharma.webp";
+import sannidhkumar from "../../assets/images/Team/2023/Management/sannidhkumar.webp";
+import mansimittal from "../../assets/images/Team/2023/Management/mansimittal.webp";
+import agrimgupta from "../../assets/images/Team/2023/Management/agrimgupta.webp";
+import m10 from "../../assets/images/Team/2023/Mechanical/m10.webp";
+import p3 from "../../assets/images/Team/2023/Payload/p3.webp";
+import m6 from "../../assets/images/Team/2023/Mechanical/m6.webp";
+import p6 from "../../assets/images/Team/2023/Payload/p6.webp";
+import e10 from "../../assets/images/Team/2023/Electrical/e10.webp";
+import s2 from "../../assets/images/Team/2023/Software/s2.webp";
+import m2 from "../../assets/images/Team/2023/Mechanical/m2.webp";
+import p5 from "../../assets/images/Team/2023/Payload/p5.webp";
+import e9 from "../../assets/images/Team/2023/Electrical/e9.webp";
+import s8 from "../../assets/images/Team/2023/Software/s8.webp";
+import m5 from "../../assets/images/Team/2023/Mechanical/m5.webp";
+
+export const Alumnis23 = [
+
+    {
+        id: "30",
+        name: "Ashray Saxena",
+        img: p4,
+        position: "Team Captain",
+        linkedin: "https://www.linkedin.com/in/ashray-saxena-052648288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        batch: "2023"
+    },
+
+    {
+        id: "31",
+        name: "Vanshika Agarwal",
+        img: vanshikaagarwal,
+        position: "Team Manager",
+        linkedin: "https://www.linkedin.com/in/vanshika-agarwal-7a4535291",
+        batch: "2023"
+    },
+
+    {
+        id: "1",
+        name: "Manas Choudhary",
+        img: manaschoudhary,
+        position: "Web Development Head",     
+        linkedin: "https://www.linkedin.com/in/manas-choudhary-56374028b",
+        github: "https://github.com/ManasChoudhary-01",
+        insta: "https://www.instagram.com/manaschoudhary_?igsh=YTQwZjQ0NmI0OA==",
+        team: "management"
+    },
+    {
+        id: "2",
+        name: "Agrim Gupta",
+        img: agrimgupta,
+        position: "Web Development Head", 
+        linkedin: "https://www.linkedin.com/in/agrim-gupta-2796ba313/",
+        github: "https://github.com/TheClusterBond",
+        insta: "https://www.instagram.com/agrim_gupta31/",
+        team: "management"
+    },
+    {
+        id: "3",
+        name: "Saniddh Kumar",
+        img: sannidhkumar,
+        position1: "Events & Marketing Head",
+        position2: "APOGEE Coordinator",
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/saniddh-kumar-729069281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        github: null,
+        insta: "https://www.instagram.com/_saniddh_?igsh=Yjd3djF2dXdmdXNi&utm_source=qr",
+        team: "management"
+    },
+    {
+        id: "4",
+        name: "Aishwarya",
+        img: aishwarya,
+        position1: "Events & Marketing Head",
+        position2: null,
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/aishwarya-singh-k",
+        github: null,
+        insta: "https://www.instagram.com/instanssb?igsh=MW5vcDQ5bTA5eTBtNw==",
+        team: "management"
+    },
+    {
+        id: "5",
+        name: "Niharika Sharma",
+        img: niharikasharma,
+        position1: "Operations & Logistics Head",
+        position2: "APOGEE Joint Coordinator",
+        position3: null,      
+        linkedin: "https://www.linkedin.com/in/niharika-sharma-96b620292",
+        github: null,
+        insta: "https://www.instagram.com/_niharikasharma_72?igsh=MTYyNncwcnN0bnQxNQ==",
+        team: "management"
+    },
+    {
+        id: "6",
+        name: "Shrey Thakkar",
+        img: m10,
+        position1: "Operations & Logistics Head",
+        position2: null,
+        position3: null, 
+        linkedin: "https://www.linkedin.com/in/shrey-thakkar-27867228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: null,
+        insta: "https://www.instagram.com/shretz_t20?igsh=cW5ydDQ4b2Z2NHp1",
+        team: "management"
+    },
+    {
+        id: "10",
+        name: "Mansi Mittal",
+        img: mansimittal,
+        position1: "BOSM Coordinator",
+        position2: null,
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/mansi-mittal-0742bb2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: null,
+        insta: "https://www.instagram.com/m_mittal14/",
+        team: "management"
+    },
+    {
+        id: "12",
+        name: "Vidit Shah",
+        img: m6,
+        position1: "Mechanical Lead",
+        position2: null,
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/vidit-shah-2198a02aa/",
+        github: null,
+        insta: "https://www.instagram.com/viditshah201/",
+        team: "tech"
+    },
+    {
+        id: "13",
+        name: "Ashwin Singh",
+        img: p6,
+        position1: "Payload & Experimentation Lead",
+        position2: null,
+        position3: null,
+        linkedin: null,
+        github: null,
+        insta: null,
+        team: "tech"
+    },
+    {
+        id: "14",
+        name: "Achyuthan Raghavan",
+        img: e10,
+        position1: "Electrical Lead",
+        position2: null,
+        position3: null,
+        linkedin: "http://www.linkedin.com/in/achyuthan-raghavan-8863402b6",
+        github: "https://github.com/Achyu249",
+        insta: "https://www.instagram.com/achyuthan_raghavan/",
+        team: "tech"
+    },
+    {
+        id: "15",
+        name: "Gautham Balachandran",
+        img: s2,
+        position1: "Software Lead",
+        position2: null,
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/gautham-balachandran-82bab5291",
+        github: "https://github.com/CtrlZGau",
+        insta: "https://www.instagram.com/_gautham_b/",
+        team: "tech"
+    },
+    {
+        id: "16",
+        name: "Janak Matharu",
+        img: m2,
+        position1: "Mechanical Vice Lead",
+        position2: null,
+        position3: null,
+        linkedin: "https://in.linkedin.com/in/janaksingh-matharu-1431b2224",
+        github: null,
+        insta: "https://www.instagram.com/jaaanakk03?igsh=Mjk3MzIxZTg3MW1t&utm_source=qr",
+        team: "tech"
+    },
+    {
+        id: "17",
+        name: "Charvi Bansal",
+        img: p5,
+        position1: "Payload & Experimentation Vice Lead",
+        position2: null,
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/charvi-bansal-3169022bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: null,
+        insta: "https://www.instagram.com/_char.vi_?igsh=ajE4eWtyY2x5aG16",
+        team: "tech"
+    },
+    {
+        id: "18",
+        name: "Arsheya Singh Parmar",
+        img: e9,
+        position1: "Electrical Vice Lead",
+        position2: null,
+        position3: null,
+        linkedin: null,
+        github: "https://github.com/ghostNotFounded",
+        insta: "https://www.instagram.com/ars.hheya/",
+        team: "tech"
+    },
+    {
+        id: "19",
+        name: "Aryan Chaudhary",
+        img: s8,
+        position1: "Software Vice Lead",
+        position2: null,
+        position3: null,
+        linkedin: "Aryan Chaudhary",
+        github: null,
+        insta: null,
+        team: "tech"
+    },
+    {
+        id: "20",
+        name: "Akshay Kumar",
+        img: m5,
+        position1: "Research and Development Lead",
+        position2: null,
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/akshay-kumar-gururajan-2415592a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: null,
+        insta: "https://www.instagram.com/akshay_gmsbsjk?igsh=MXg2YXB5bHo1N3Vqdg==",
+        team: "tech"
+    }
+]
+
 import fd1 from "../../assets/images/Alumni/Founding/fd1.webp";
 import fd2 from "../../assets/images/Alumni/Founding/fd2.webp";
 import fd3 from "../../assets/images/Alumni/Founding/fd3.webp";

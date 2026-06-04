@@ -31,7 +31,6 @@ import aayushdhingra from "../../assets/images/Team/2023/Management/aayushdhingr
 import aishwarya from "../../assets/images/Team/2023/Management/aishwarya.webp";
 import niharikasharma from "../../assets/images/Team/2023/Management/niharikasharma.webp";
 import sannidhkumar from "../../assets/images/Team/2023/Management/sannidhkumar.webp";
-import ayushpatel from "../../assets/images/Team/2023/Management/ayushpatel.webp";
 import mansimittal from "../../assets/images/Team/2023/Management/mansimittal.webp";
 import kashishbansal from "../../assets/images/Team/2023/Management/kashishbansal.webp";
 import agrimgupta from "../../assets/images/Team/2023/Management/agrimgupta.webp";
@@ -167,18 +166,6 @@ export const BoardTeam = [
         linkedin: "https://www.linkedin.com/in/mansi-mittal-0742bb2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         github: null,
         insta: "https://www.instagram.com/m_mittal14/",
-        team: "management"
-    },
-    {
-        id: "11",
-        name: "Ayush Patel",
-        img: ayushpatel,
-        position1: "BOSM Joint Coordinator",
-        position2: null,
-        position3: null,
-        linkedin: "https://www.linkedin.com/in/ayush-patel-06a786288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        github: null,
-        insta: "https://www.instagram.com/han_wahi_iyush?igsh=cDJkbHEzcGxzaWQw",
         team: "management"
     },
     {
