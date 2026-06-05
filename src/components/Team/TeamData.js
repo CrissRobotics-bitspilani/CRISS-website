@@ -1,7 +1,7 @@
 import p4 from "../../assets/images/Team/2023/Payload/p4.webp";
 import vanshikaagarwal from "../../assets/images/Team/2023/Management/vanshikaagarwal.webp";
 
-export const BoardLead = [
+/*export const BoardLead = [
     {
         id: "1",
         name: "Ashray Saxena",
@@ -24,9 +24,46 @@ export const BoardLead = [
         batch: "2023"
     }
 
+];*/
+
+import e_krishna from "../../assets/images/Team/2024/Electrical/e_krishna.webp";
+
+
+export const BoardLead = [
+    {
+        id: "1",
+        name: "Krishna Dubey",
+        img: e_krishna,
+        position1: "Team Captain",
+        linkedin: "http://linkedin.com/in/krishna-dubey-5638aa248",
+        github: "https://github.com/justKrishna005",
+        insta: "https://www.instagram.com/kd_nth05/#",
+        batch: "2024"
+    },
+
+    {
+        id: "2",
+        name: "Vanshika Agarwal",
+        img: vanshikaagarwal,
+        position1: "Team Manager",
+        linkedin: "https://www.linkedin.com/in/vanshika-agarwal-7a4535291",
+        github: "https://github.com/Vans-17",
+        insta: "https://www.instagram.com/vanshika_agarwal_17?igsh=MWIwZXo0bnRsM2R5bA==",
+        batch: "2023"
+    }
+
 ];
 
-import manaschoudhary from "../../assets/images/Team/2023/Management/manaschoudhary.webp";
+import ma_sarthak from "../../assets/images/Team/2024/Management/ma_sarthak.webp";
+import ma_daksh from "../../assets/images/Team/2024/Management/ma_daksh.webp";
+import ma_aarav from "../../assets/images/Team/2024/Management/ma_aarav.webp";
+import ma_bhavya from "../../assets/images/Team/2024/Management/ma_bhavya.webp";
+
+import m_ayush from "../../assets/images/Team/2024/Mechanical/m_ayush.webp";
+import e_vibhav from "../../assets/images/Team/2024/Electrical/e_vibhav.webp";
+import m_janaansh from "../../assets/images/Team/2024/Mechanical/m_janaansh.webp";
+
+/*import manaschoudhary from "../../assets/images/Team/2023/Management/manaschoudhary.webp";
 import aayushdhingra from "../../assets/images/Team/2023/Management/aayushdhingra.webp";
 import aishwarya from "../../assets/images/Team/2023/Management/aishwarya.webp";
 import niharikasharma from "../../assets/images/Team/2023/Management/niharikasharma.webp";
@@ -44,12 +81,96 @@ import m2 from "../../assets/images/Team/2023/Mechanical/m2.webp";
 import p5 from "../../assets/images/Team/2023/Payload/p5.webp";
 import e9 from "../../assets/images/Team/2023/Electrical/e9.webp";
 import s8 from "../../assets/images/Team/2023/Software/s8.webp";
-import m5 from "../../assets/images/Team/2023/Mechanical/m5.webp";
+import m5 from "../../assets/images/Team/2023/Mechanical/m5.webp"; */
 
 export const BoardTeam = [
 
     {
         id: "1",
+        name: "Sarthak Shrivastava",
+        img: ma_sarthak,
+        position1: "Web Development Head",
+        position2: "BOSM Joint Coordinator",
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/sarthak-shrivastava-212466310/",
+        github: "https://github.com/sarthak19ok",
+        insta: "https://www.instagram.com/_sarthhakk_/",
+        team: "management"
+    },
+    {
+        id: "2",
+        name: "Daksh Singhal",
+        img: ma_daksh,
+        position1: "Operations and Logistics Head",
+        position2: "APOGEE Coordinator",
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/daksh-singhal-103980378/",
+        github: "https://github.com/dakshsinghal45",
+        insta: "https://www.instagram.com/daksh.singhal.4/",
+        team: "management"
+    },
+    {
+        id: "3",
+        name: "Aarav Kaul",
+        img: ma_aarav,
+        position1: "Sponsorship Head",
+        position2: "BOSM Coordinator",
+        position3: null,
+        linkedin: "https://in.linkedin.com/in/aarav-kaul-30a99031b",
+        github: null,
+        insta: "https://www.instagram.com/arr_uv31?igsh=bXl0d3U4Z285M3Zi&utm_source=qr",
+        team: "management"
+    },
+    {
+        id: "4",
+        name: "Bhavya Murli Shevkani",
+        img: ma_bhavya,
+        position1: "Operations and Logistics Head",
+        position2: null,
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/bhavya-shevkani-a43b54321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: null,
+        insta: "https://www.instagram.com/bhavyashevkani?igsh=MTl4YXdjdGZhMno3bA==",
+        team: "management"
+    },
+    {
+        id: "11",
+        name: "Ayush Girish Bhandary",
+        img: m_ayush,
+        position1: "Team Vice-Captain",
+        position2: "Mechanical Lead",
+        position3: null,
+        linkedin: null,
+        github: null,
+        insta: "https://www.instagram.com/ayush_bhandary_999?igsh=MXY0cGhqMWl1eHNjaw==",
+        team: "tech"
+    },
+    {
+        id: "12",
+        name: "Vibhav Jain",
+        img: e_vibhav,
+        position1: "Electrical Lead",
+        linkedin: "https://www.linkedin.com/in/vibhav-jain-203949323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: null,
+        insta: "https://www.instagram.com/vibhav.07_?igsh=MWRrMmdnMHBxd3BqbA==",
+        team: "tech"
+    },
+    {
+        id: "15",
+        name: "Janaansh Patel",
+        img: m_janaansh,
+        position1: "Mechanical Vice Lead",
+        linkedin: "https://www.linkedin.com/in/janaansh-patel-a06551358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: null,
+        insta: "https://www.instagram.com/_janaansh?igsh=anFzazVscW5hYjM5",
+        team: "tech"
+    },
+    {
+
+    }
+
+    /*{
+        id: "2",
         name: "Manas Choudhary",
         img: manaschoudhary,
         position1: "Web Development Head",
@@ -61,7 +182,7 @@ export const BoardTeam = [
         team: "management"
     },
     {
-        id: "2",
+        id: "3",
         name: "Agrim Gupta",
         img: agrimgupta,
         position1: "Web Development Head",
@@ -73,7 +194,7 @@ export const BoardTeam = [
         team: "management"
     },
     {
-        id: "3",
+        id: "4",
         name: "Saniddh Kumar",
         img: sannidhkumar,
         position1: "Events & Marketing Head",
@@ -85,7 +206,7 @@ export const BoardTeam = [
         team: "management"
     },
     {
-        id: "4",
+        id: "5",
         name: "Aishwarya",
         img: aishwarya,
         position1: "Events & Marketing Head",
@@ -97,7 +218,7 @@ export const BoardTeam = [
         team: "management"
     },
     {
-        id: "5",
+        id: "6",
         name: "Niharika Sharma",
         img: niharikasharma,
         position1: "Operations & Logistics Head",
@@ -109,7 +230,7 @@ export const BoardTeam = [
         team: "management"
     },
     {
-        id: "6",
+        id: "7",
         name: "Shrey Thakkar",
         img: m10,
         position1: "Operations & Logistics Head",
@@ -121,7 +242,7 @@ export const BoardTeam = [
         team: "management"
     },
     {
-        id: "7",
+        id: "8",
         name: "Aayush Dhingra",
         img: aayushdhingra,
         position1: "Sponsorship & Outreach Head",
@@ -133,7 +254,7 @@ export const BoardTeam = [
         team: "management"
     },
     {
-        id: "8",
+        id: "9",
         name: "Lakshya Jain",
         img: p3,
         position1: "Sponsorship & Outreach Head",
@@ -145,7 +266,7 @@ export const BoardTeam = [
         team: "management"
     },
     {
-        id: "9",
+        id: "10",
         name: "Kashish Bansal",
         img: kashishbansal,
         position1: "Video Production Head",
@@ -157,7 +278,7 @@ export const BoardTeam = [
         team: "management"
     },
     {
-        id: "10",
+        id: "11",
         name: "Mansi Mittal",
         img: mansimittal,
         position1: "BOSM Coordinator",
@@ -275,22 +396,14 @@ export const BoardTeam = [
         github: null,
         insta: "https://www.instagram.com/akshay_gmsbsjk?igsh=MXg2YXB5bHo1N3Vqdg==",
         team: "tech"
-    }
+    }*/
 ];
 
-//import aditikamal from "../../assets/images/Team/2023/Management/aditikamal.webp";
-//import vanshjain from "../../assets/images/Team/2023/Management/vanshjain.webp";
-//import arnavsahoo from "../../assets/images/Team/2023/Management/arnavsahoo.webp";
 import bhoomimotihar from "../../assets/images/Team/2023/Management/bhoomimotihar.webp";
 import nimitgarg from "../../assets/images/Team/2023/Management/nimitgarg.webp";
 import arnavgarg from "../../assets/images/Team/2023/Management/arnavgarg.webp";
-//import govindbhageria from "../../assets/images/Team/2023/Management/govindbhageria.webp";
 import navyamgoyal from "../../assets/images/Team/2023/Management/navyamgoyal.webp";
 import swapnil from "../../assets/images/Team/2023/Management/swapnil.webp";
-//import lakshayjain from "../../assets/images/Team/2023/Management/lakshayjain.webp";
-import ma_aarav from "../../assets/images/Team/2024/Management/ma_aarav.webp";
-import ma_bhavya from "../../assets/images/Team/2024/Management/ma_bhavya.webp";
-import ma_daksh from "../../assets/images/Team/2024/Management/ma_daksh.webp";
 import ma_meet from "../../assets/images/Team/2024/Management/ma_meet.webp";
 import ma_rishabh from "../../assets/images/Team/2024/Management/ma_rishabh.webp";
 import ma_saanidhya from "../../assets/images/Team/2024/Management/ma_saanidhya.webp";
@@ -298,50 +411,8 @@ import ma_shashwat from "../../assets/images/Team/2024/Management/ma_shashwat.we
 import ma_shlok from "../../assets/images/Team/2024/Management/ma_shlok.webp";
 import ma_tushar from "../../assets/images/Team/2024/Management/ma_tushar.webp";
 import ma_vedansh from "../../assets/images/Team/2024/Management/ma_vedansh.webp";
-import ma_sarthak from "../../assets/images/Team/2024/Management/ma_sarthak.webp";
 
 export const ManagementTeam = [
-    {/*
-        id: "9",
-        name: "Lakshay Jain",
-        img: lakshayjain,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/lakshay-jain-681b222b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        github: null,
-        insta: "https://www.instagram.com/socalledlakshay?igsh=MWh2ZnB5ajd4b2QwZQ==",
-        batch: "2023"
-    */},
-    {/*
-        id: "10",
-        name: "Aditi Kamal",
-        img: aditikamal,
-        position: "Member",
-        linkedin: null,
-        github: null,
-        insta: "https://www.instagram.com/diti.ko?igsh=MzRlODBiNWFlZA==",
-        batch: "2023"
-    */},
-    
-    {/*
-        id: "13",
-        name: "Vansh",
-        img: vanshjain,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/vansh-jain-a25a99296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        github: null,
-        insta: "https://www.instagram.com/vansh_jain_100?igsh=bHdibnpheGFldjJt&utm_source=qr",
-        batch: "2023"
-    */},
-    {/*
-        id: "15",
-        name: "Arnav Sahoo",
-        img: arnavsahoo,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/arnav-sahoo-902a6b293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        github: null,
-        insta: "https://www.instagram.com/arnav.sahoo02?igsh=MXBlYzJkcXBmYmduaA==",
-        batch: "2023"
-    */},
     {
         id: "18",
         name: "Bhoomi Motihar",
@@ -362,16 +433,6 @@ export const ManagementTeam = [
         insta: "https://www.instagram.com/_nimit_garg_?igsh=MWxjeWc3dWlyNHRvbQ%3D%3D&utm_source=qr",
         batch: "2023"
     },
-    {/*
-        id: "20",
-        name: "Govind Bhageria",
-        img: govindbhageria,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/govind-bhageria-5374452ab/",
-        github: null,
-        insta: "https://www.instagram.com/go_withthe_vind?igsh=MXR3dGYxeWQ5MXA4MQ==",
-        batch: "2023"
-    */},
     {
         id: "27",
         name: "Arnav Garg",
@@ -413,16 +474,6 @@ export const ManagementTeam = [
         batch: "2024"
     },
     {
-        id: "2",
-        name: "Sarthak Shrivastava",
-        img: ma_sarthak,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/sarthak-shrivastava-212466310/",
-        github: "https://github.com/sarthak19ok",
-        insta: "https://www.instagram.com/_sarthhakk_/",
-        batch: "2024"
-    },
-    {
         id: "4",
         name: "Vedansh Sharma",
         img: ma_vedansh,
@@ -453,16 +504,6 @@ export const ManagementTeam = [
         batch: "2024"
     },
     {
-        id: "6",
-        name: "Daksh Singhal",
-        img: ma_daksh,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/daksh-singhal-103980378/",
-        github: "https://github.com/dakshsinghal45",
-        insta: "https://www.instagram.com/daksh.singhal.4/",
-        batch: "2024"
-    },
-    {
         id: "25",
         name: "Shashwat Sanskrit",
         img: ma_shashwat,
@@ -483,26 +524,6 @@ export const ManagementTeam = [
         batch: "2024"
     },
     {
-        id: "11",
-        name: "Bhavya Murli Shevkani",
-        img: ma_bhavya,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/bhavya-shevkani-a43b54321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        github: null,
-        insta: "https://www.instagram.com/bhavyashevkani?igsh=MTl4YXdjdGZhMno3bA==",
-        batch: "2024"
-    },
-    {
-        id: "12",
-        name: "Aarav Kaul",
-        img: ma_aarav,
-        position: "Member",
-        linkedin: "https://in.linkedin.com/in/aarav-kaul-30a99031b",
-        github: null,
-        insta: "https://www.instagram.com/arr_uv31?igsh=bXl0d3U4Z285M3Zi&utm_source=qr",
-        batch: "2024"
-    },
-    {
         id: "14",
         name: "Rishabh Agarwal",
         img: ma_rishabh,
@@ -512,11 +533,6 @@ export const ManagementTeam = [
         insta: "https://www.instagram.com/rishabh_1010?igsh=d2psdmxjbTUyMWsx",
         batch: "2024"
     },
-    
-    
-    
-     
-
 ];
 
 
@@ -571,7 +587,7 @@ export const SoftwareTeam = [
         insta: "https://www.instagram.com/dris_._?igsh=aGdlMGZkYjdqemMz",
         batch: "2023"
     },
-        {
+    {
         id: "8",
         name: "Adhyatma Deep Agrawal",
         img: s_adhyatma,
@@ -627,13 +643,12 @@ export const SoftwareTeam = [
 import m1 from "../../assets/images/Team/2022/Mechanical/m1.webp";
 import m3 from "../../assets/images/Team/2023/Mechanical/m3.webp";
 import m4 from "../../assets/images/Team/2023/Mechanical/m4.webp";
+import m10 from "../../assets/images/Team/2023/Mechanical/m10.webp";
 import m12 from "../../assets/images/Team/2023/Mechanical/m12.webp";
 import m13 from "../../assets/images/Team/2023/Mechanical/m13.webp";
 import m_avanish from "../../assets/images/Team/2024/Mechanical/m_avanish.webp";
-import m_ayush from "../../assets/images/Team/2024/Mechanical/m_ayush.webp";
 import m_hridbeg from "../../assets/images/Team/2024/Mechanical/m_hridbeg.webp";
 import m_jhanvi from "../../assets/images/Team/2024/Mechanical/m_jhanvi.webp";
-import m_janaansh from "../../assets/images/Team/2024/Mechanical/m_janaansh.webp";
 import m_kahan from "../../assets/images/Team/2024/Mechanical/m_kahan.webp";
 import m_ved from "../../assets/images/Team/2024/Mechanical/m_ved.webp";
 
@@ -699,16 +714,6 @@ export const MechanicalTeam = [
         batch: "2023"
     },
     {
-        id: "11",
-        name: "Ayush Girish Bhandary",
-        img: m_ayush,
-        position: "Member",
-        linkedin: null,
-        github: null,
-        insta: "https://www.instagram.com/ayush_bhandary_999?igsh=MXY0cGhqMWl1eHNjaw==",
-        batch: "2024"
-    },
-    {
         id: "12",
         name: "Kahan Shah",
         img: m_kahan,
@@ -739,16 +744,6 @@ export const MechanicalTeam = [
         batch: "2024"
     },
     {
-        id: "15",
-        name: "Janaansh Patel",
-        img: m_janaansh,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/janaansh-patel-a06551358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        github: null,
-        insta: "https://www.instagram.com/_janaansh?igsh=anFzazVscW5hYjM5",
-        batch: "2024"
-    },
-    {
         id: "16",
         name: "Ved Patel",
         img: m_ved,
@@ -772,13 +767,10 @@ export const MechanicalTeam = [
 
 import e1 from "../../assets/images/Team/2022/Electrical/e1.webp";
 import e2 from "../../assets/images/Team/2023/Electrical/e2.webp";
-//import e3 from "../../assets/images/Team/2023/Electrical/e3.webp";
 import e7 from "../../assets/images/Team/2023/Electrical/e7.webp";
 import e_aditya from "../../assets/images/Team/2024/Electrical/e_aditya.webp";
 import e_krish from "../../assets/images/Team/2024/Electrical/e_krish.webp";
 import e_prasham from "../../assets/images/Team/2024/Electrical/e_prasham.webp";
-import e_vibhav from "../../assets/images/Team/2024/Electrical/e_vibhav.webp";
-import e_krishna from "../../assets/images/Team/2024/Electrical/e_krishna.webp";
 
 export const ElectricalTeam = [
     {
@@ -811,36 +803,6 @@ export const ElectricalTeam = [
         insta: null,
         batch: "2022"
     },
-    {/*
-        id: "3",
-        name: "Aditya Patil",
-        img: e3,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/aditya-patil-975569286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        github: null,
-        insta: "https://www.instagram.com/thereal_patil?igsh=YnU0cTY5NDZoZWJs",
-        batch: "2023"
-    */},
-    {/*
-        id: "4",
-        name: "Aditi Kamal",
-        img: aditikamal,
-        position: "Member",
-        linkedin: null,
-        github: null,
-        insta: "https://www.instagram.com/diti.ko?igsh=MzRlODBiNWFlZA==",
-        batch: "2023"
-    */},
-     {
-        id: "5",
-        name: "Vibhav Jain",
-        img: e_vibhav,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/vibhav-jain-203949323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        github: null,
-        insta: "https://www.instagram.com/vibhav.07_?igsh=MWRrMmdnMHBxd3BqbA==",
-        batch: "2024"
-    },
     {
         id: "6",
         name: "Krish Jain",
@@ -869,16 +831,6 @@ export const ElectricalTeam = [
         linkedin: "https://www.linkedin.com/in/aditya-sahai-03120b332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         github: null,
         insta: "https://www.instagram.com/adi.sahai?igsh=MW90cHY2a2luYmlwNQ==",
-        batch: "2024"
-    },
-    {
-        id: "9",
-        name: "Krishna Dubey",
-        img: e_krishna,
-        position: "Member",
-        linkedin: "http://linkedin.com/in/krishna-dubey-5638aa248",
-        github: "https://github.com/justKrishna005",
-        insta: "https://www.instagram.com/kd_nth05/#",
         batch: "2024"
     },
 ];
@@ -983,6 +935,7 @@ import f10 from "../../assets/images/Team/Faculty/f10.webp";
 import f11 from "../../assets/images/Team/Faculty/f11.webp";
 import f12 from "../../assets/images/Team/Faculty/f12.webp";
 import f13 from "../../assets/images/Team/Faculty/f13.webp";
+import { m } from "framer-motion";
 
 export const FacultyTeam = [
     {

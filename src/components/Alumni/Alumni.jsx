@@ -76,6 +76,7 @@ export default function Alumni() {
                                 name={data.name}
                                 profile={data.img}
                                 position={data.position}
+                                position2={data.position2}
                                 linkedin={data.linkedin}
                                 team={data.team}
                             />
