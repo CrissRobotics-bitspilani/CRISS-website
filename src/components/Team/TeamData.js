@@ -24,6 +24,7 @@
 ];*/
 
 import e_krishna from "../../assets/images/Team/2024/Electrical/e_krishna.webp";
+import m_ayush from "../../assets/images/Team/2024/Mechanical/m_ayush.webp";
 import ma_paarth from "../../assets/images/Team/2024/Management/ma_paarth.webp";
 
 export const BoardLead = [
@@ -37,7 +38,16 @@ export const BoardLead = [
         insta: "https://www.instagram.com/kd_nth05/#",
         batch: "2024"
     },
-
+    {
+        id: "2",
+        name: "Ayush Girish Bhandary",
+        img: m_ayush,
+        position1: "Team Vice-Captain",
+        linkedin: null,
+        github: null,
+        insta: "https://www.instagram.com/ayush_bhandary_999?igsh=MXY0cGhqMWl1eHNjaw==",
+        batch: "2024"
+    },
     {
         id: "2",
         name: "Paarth Sarin",
@@ -46,7 +56,7 @@ export const BoardLead = [
         linkedin: "https://www.linkedin.com/in/paarth-sarin-28b637346/",
         github: null,
         insta: "https://www.instagram.com/paarth_sarin?igsh=MTNtbzQ5d241NWJ3eA%3D%3D&utm_source=qr",
-        batch: "2023"
+        batch: "2024"
     }
 ];
 
@@ -60,7 +70,6 @@ import ma_tushar from "../../assets/images/Team/2024/Management/ma_tushar.webp";
 import ma_bhavya from "../../assets/images/Team/2024/Management/ma_bhavya.webp";
 import ma_nick from "../../assets/images/Team/2024/Management/ma_nick.webp";
 
-import m_ayush from "../../assets/images/Team/2024/Mechanical/m_ayush.webp";
 import e_vibhav from "../../assets/images/Team/2024/Electrical/e_vibhav.webp";
 import s_pranav from "../../assets/images/Team/2024/Software/s_pranav.webp";
 import m_jhanvi from "../../assets/images/Team/2024/Mechanical/m_jhanvi.webp";
@@ -171,8 +180,8 @@ export const BoardTeam = [
         id: "11",
         name: "Ayush Girish Bhandary",
         img: m_ayush,
-        position1: "Team Vice-Captain",
-        position2: "Mechanical Lead",
+        position1: "Mechanical Lead",
+        position2: null,
         position3: null,
         linkedin: null,
         github: null,
