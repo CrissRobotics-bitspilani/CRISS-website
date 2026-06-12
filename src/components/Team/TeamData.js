@@ -1,6 +1,3 @@
-import p4 from "../../assets/images/Team/2023/Payload/p4.webp";
-import vanshikaagarwal from "../../assets/images/Team/2023/Management/vanshikaagarwal.webp";
-
 /*export const BoardLead = [
     {
         id: "1",
@@ -27,7 +24,7 @@ import vanshikaagarwal from "../../assets/images/Team/2023/Management/vanshikaag
 ];*/
 
 import e_krishna from "../../assets/images/Team/2024/Electrical/e_krishna.webp";
-
+import ma_paarth from "../../assets/images/Team/2024/Management/ma_paarth.webp";
 
 export const BoardLead = [
     {
@@ -43,45 +40,35 @@ export const BoardLead = [
 
     {
         id: "2",
-        name: "Vanshika Agarwal",
-        img: vanshikaagarwal,
+        name: "Paarth Sarin",
+        img: ma_paarth,
         position1: "Team Manager",
-        linkedin: "https://www.linkedin.com/in/vanshika-agarwal-7a4535291",
-        github: "https://github.com/Vans-17",
-        insta: "https://www.instagram.com/vanshika_agarwal_17?igsh=MWIwZXo0bnRsM2R5bA==",
+        linkedin: "https://www.linkedin.com/in/paarth-sarin-28b637346/",
+        github: null,
+        insta: "https://www.instagram.com/paarth_sarin?igsh=MTNtbzQ5d241NWJ3eA%3D%3D&utm_source=qr",
         batch: "2023"
     }
-
 ];
+
 
 import ma_sarthak from "../../assets/images/Team/2024/Management/ma_sarthak.webp";
 import ma_daksh from "../../assets/images/Team/2024/Management/ma_daksh.webp";
 import ma_aarav from "../../assets/images/Team/2024/Management/ma_aarav.webp";
+import ma_shashwat from "../../assets/images/Team/2024/Management/ma_shashwat.webp";
+import ma_meet from "../../assets/images/Team/2024/Management/ma_meet.webp";
+import ma_tushar from "../../assets/images/Team/2024/Management/ma_tushar.webp";
 import ma_bhavya from "../../assets/images/Team/2024/Management/ma_bhavya.webp";
+import ma_nick from "../../assets/images/Team/2024/Management/ma_nick.webp";
 
 import m_ayush from "../../assets/images/Team/2024/Mechanical/m_ayush.webp";
 import e_vibhav from "../../assets/images/Team/2024/Electrical/e_vibhav.webp";
+import s_pranav from "../../assets/images/Team/2024/Software/s_pranav.webp";
+import m_jhanvi from "../../assets/images/Team/2024/Mechanical/m_jhanvi.webp";
 import m_janaansh from "../../assets/images/Team/2024/Mechanical/m_janaansh.webp";
-
-/*import manaschoudhary from "../../assets/images/Team/2023/Management/manaschoudhary.webp";
-import aayushdhingra from "../../assets/images/Team/2023/Management/aayushdhingra.webp";
-import aishwarya from "../../assets/images/Team/2023/Management/aishwarya.webp";
-import niharikasharma from "../../assets/images/Team/2023/Management/niharikasharma.webp";
-import sannidhkumar from "../../assets/images/Team/2023/Management/sannidhkumar.webp";
-import mansimittal from "../../assets/images/Team/2023/Management/mansimittal.webp";
-import kashishbansal from "../../assets/images/Team/2023/Management/kashishbansal.webp";
-import agrimgupta from "../../assets/images/Team/2023/Management/agrimgupta.webp";
-import m10 from "../../assets/images/Team/2023/Mechanical/m10.webp";
-import p3 from "../../assets/images/Team/2023/Payload/p3.webp";
-import m6 from "../../assets/images/Team/2023/Mechanical/m6.webp";
-import p6 from "../../assets/images/Team/2023/Payload/p6.webp";
-import e10 from "../../assets/images/Team/2023/Electrical/e10.webp";
-import s2 from "../../assets/images/Team/2023/Software/s2.webp";
-import m2 from "../../assets/images/Team/2023/Mechanical/m2.webp";
-import p5 from "../../assets/images/Team/2023/Payload/p5.webp";
-import e9 from "../../assets/images/Team/2023/Electrical/e9.webp";
-import s8 from "../../assets/images/Team/2023/Software/s8.webp";
-import m5 from "../../assets/images/Team/2023/Mechanical/m5.webp"; */
+import e_hitarth from "../../assets/images/Team/2024/Electrical/e_hitarth.webp";
+import m_ved from "../../assets/images/Team/2024/Mechanical/m_ved.webp";
+import e_prasham from "../../assets/images/Team/2024/Electrical/e_prasham.webp";
+import s_dev from "../../assets/images/Team/2024/Software/s_dev.webp";
 
 export const BoardTeam = [
 
@@ -123,14 +110,61 @@ export const BoardTeam = [
     },
     {
         id: "4",
+        name: "Shashwat Sanskrit",
+        img: ma_shashwat,
+        position1: "Sponsorship Head",
+        position2: "APOGEE Joint Coordinator",
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/shashwat-sankrit-4792b7311/",
+        github: null,
+        insta: "https://www.instagram.com/shashwayy.7?igsh=MXBxaWJ3a2FocjN3bQ%3D%3D&utm_source=qr",
+        team: "management"
+    },
+    {
+        id: "5",
+        name: "Meet Shah",
+        img: ma_meet,
+        position1: "Events and Marketing Head",
+        position2: "APOGEE Joint Coordinator",
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/meet-shah192927/",
+        github: "https://github.com/meet2707",
+        insta: "https://www.instagram.com/meet.2707/",
+        team: "management"
+    },
+    {
+        id: "6",
+        name: "Tushar Chhajed",
+        img: ma_tushar,
+        position1: "Events and Marketing Head",
+        position2: "BOSM Joint Coordinator",
+        linkedin: "https://www.linkedin.com/in/tushar-chhajed-550220234/",
+        github: null,
+        insta: "https://www.instagram.com/chhajed_tushar?igsh=MWt4NGhlYnd2Mm8wdw==",
+        team: "management"
+    },
+    {
+        id: "7",
         name: "Bhavya Murli Shevkani",
         img: ma_bhavya,
         position1: "Operations and Logistics Head",
         position2: null,
         position3: null,
-        linkedin: "https://www.linkedin.com/in/bhavya-shevkani-a43b54321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedin: "https://www.linkedin.com/in/bhavya-shevkani-a43b54321/",
         github: null,
         insta: "https://www.instagram.com/bhavyashevkani?igsh=MTl4YXdjdGZhMno3bA==",
+        team: "management"
+    },
+    {
+        id: "8",
+        name: "Nick Fernandes",
+        img: ma_nick,
+        position1: "Video Production Head",
+        position2: null,
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/nick-fernandes-a401bb322/",
+        github: null,
+        insta: "https://www.instagram.com/nickfernandes1906/",
         team: "management"
     },
     {
@@ -150,9 +184,29 @@ export const BoardTeam = [
         name: "Vibhav Jain",
         img: e_vibhav,
         position1: "Electrical Lead",
-        linkedin: "https://www.linkedin.com/in/vibhav-jain-203949323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedin: "https://www.linkedin.com/in/vibhav-jain-203949323/",
         github: null,
         insta: "https://www.instagram.com/vibhav.07_?igsh=MWRrMmdnMHBxd3BqbA==",
+        team: "tech"
+    },
+    {
+        id: "13",
+        name: "Pranav Biju",
+        img: s_pranav,
+        position1: "Software Lead",
+        linkedin: "https://www.linkedin.com/in/pranav-biju-6a5b97217/",
+        github: "https://github.com/PranavBiju",
+        insta: "https://www.instagram.com/le_pra_nav/",
+        team: "tech"
+    },
+    {
+        id: "14",
+        name: "Jhanvi Matta",
+        img: m_jhanvi,
+        position1: "Payload Lead",
+        linkedin: "https://www.linkedin.com/in/jhanvi-matta-aa455b280/",
+        github: null,
+        insta: null,
         team: "tech"
     },
     {
@@ -160,16 +214,76 @@ export const BoardTeam = [
         name: "Janaansh Patel",
         img: m_janaansh,
         position1: "Mechanical Vice Lead",
-        linkedin: "https://www.linkedin.com/in/janaansh-patel-a06551358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedin: "https://www.linkedin.com/in/janaansh-patel-a06551358/",
         github: null,
         insta: "https://www.instagram.com/_janaansh?igsh=anFzazVscW5hYjM5",
         team: "tech"
     },
     {
+        id: "16",
+        name: "Hitarth Parikh",
+        img: e_hitarth,
+        position1: "Electrical Vice Lead",
+        linkedin: "https://www.linkedin.com/in/hitarth-bhavin-parikh",
+        github: null,
+        insta: "https://www.instagram.com/hitarth0_0?igsh=cWIyY2ZzY2hkYTZi&utm_source=qr",
+        team: "tech"
+    },
+    {
+        id: "18",
+        name: "Ved Patel",
+        img: m_ved,
+        position1: "System Engineer - Mechanical",
+        linkedin: "https://www.linkedin.com/in/ved-patel-88423a3a4/",
+        github: null,
+        insta: "https://www.instagram.com/_vedpatel15?igsh=MTg1MnhtaXY2dG1vZg%3D%3D&utm_source=qr",
+        team: "tech"
+    },
+    {
+        id: "19",
+        name: "Prasham Agarwal",
+        img: e_prasham,
+        position1: "System Engineer - Electrical",
+        linkedin: "https://www.linkedin.com/in/prasham-agarwal-2044a7316/",
+        github: null,
+        insta: "https://www.instagram.com/prasham_agarwal?igsh=Ymo5NXVodzAxMDVl",
+        team: "tech"
+    },
+    {
+        id: "20",
+        name: "Dev Dinesh Arora",
+        img: s_dev,
+        position1: "System Engineer - Software",
+        linkedin: "https://www.linkedin.com/in/dev-arora-397b4630a/",
+        github: "https://github.com/DevApparentlyCodes",
+        insta: "https://www.instagram.com/dev._arora/",
+        team: "tech"
+    },
+];
 
-    }
+/*import manaschoudhary from "../../assets/images/Team/2023/Management/manaschoudhary.webp";
+import aayushdhingra from "../../assets/images/Team/2023/Management/aayushdhingra.webp";
+import aishwarya from "../../assets/images/Team/2023/Management/aishwarya.webp";
+import niharikasharma from "../../assets/images/Team/2023/Management/niharikasharma.webp";
+import sannidhkumar from "../../assets/images/Team/2023/Management/sannidhkumar.webp";
+import mansimittal from "../../assets/images/Team/2023/Management/mansimittal.webp";
+import kashishbansal from "../../assets/images/Team/2023/Management/kashishbansal.webp";
+import agrimgupta from "../../assets/images/Team/2023/Management/agrimgupta.webp";
+import m10 from "../../assets/images/Team/2023/Mechanical/m10.webp";
+import p3 from "../../assets/images/Team/2023/Payload/p3.webp";
+import m6 from "../../assets/images/Team/2023/Mechanical/m6.webp";
+import p6 from "../../assets/images/Team/2023/Payload/p6.webp";
+import e10 from "../../assets/images/Team/2023/Electrical/e10.webp";
+import s2 from "../../assets/images/Team/2023/Software/s2.webp";
+import m2 from "../../assets/images/Team/2023/Mechanical/m2.webp";
+import p5 from "../../assets/images/Team/2023/Payload/p5.webp";
+import e9 from "../../assets/images/Team/2023/Electrical/e9.webp";
+import s8 from "../../assets/images/Team/2023/Software/s8.webp";
+import m5 from "../../assets/images/Team/2023/Mechanical/m5.webp"; */
 
-    /*{
+/* export const BoardTeam = [
+
+    {
         id: "2",
         name: "Manas Choudhary",
         img: manaschoudhary,
@@ -396,20 +510,18 @@ export const BoardTeam = [
         github: null,
         insta: "https://www.instagram.com/akshay_gmsbsjk?igsh=MXg2YXB5bHo1N3Vqdg==",
         team: "tech"
-    }*/
-];
+    }
+
+]; */
 
 import bhoomimotihar from "../../assets/images/Team/2023/Management/bhoomimotihar.webp";
 import nimitgarg from "../../assets/images/Team/2023/Management/nimitgarg.webp";
 import arnavgarg from "../../assets/images/Team/2023/Management/arnavgarg.webp";
 import navyamgoyal from "../../assets/images/Team/2023/Management/navyamgoyal.webp";
 import swapnil from "../../assets/images/Team/2023/Management/swapnil.webp";
-import ma_meet from "../../assets/images/Team/2024/Management/ma_meet.webp";
 import ma_rishabh from "../../assets/images/Team/2024/Management/ma_rishabh.webp";
 import ma_saanidhya from "../../assets/images/Team/2024/Management/ma_saanidhya.webp";
-import ma_shashwat from "../../assets/images/Team/2024/Management/ma_shashwat.webp";
 import ma_shlok from "../../assets/images/Team/2024/Management/ma_shlok.webp";
-import ma_tushar from "../../assets/images/Team/2024/Management/ma_tushar.webp";
 import ma_vedansh from "../../assets/images/Team/2024/Management/ma_vedansh.webp";
 
 export const ManagementTeam = [
@@ -464,16 +576,6 @@ export const ManagementTeam = [
         batch: "2023"
     },
     {
-        id: "1",
-        name: "Meet Shah",
-        img: ma_meet,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/meet-shah192927/",
-        github: "https://github.com/meet2707",
-        insta: "https://www.instagram.com/meet.2707/",
-        batch: "2024"
-    },
-    {
         id: "4",
         name: "Vedansh Sharma",
         img: ma_vedansh,
@@ -484,16 +586,6 @@ export const ManagementTeam = [
         batch: "2024"
     },
     {
-        id: "5",
-        name: "Tushar Chhajed",
-        img: ma_tushar,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/tushar-chhajed-550220234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        github: null,
-        insta: "https://www.instagram.com/chhajed_tushar?igsh=MWt4NGhlYnd2Mm8wdw==",
-        batch: "2024"
-    },
-    {
         id: "7",
         name: "Shlok Amit Kalangutkar",
         img: ma_shlok,
@@ -501,16 +593,6 @@ export const ManagementTeam = [
         linkedin: "https://www.linkedin.com/in/shlok-kalangutkar-601000318?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlsrgqapGRO%2Bl1F%2FLWM%2F5UQ%3D%3D",
         github: null,
         insta: "https://www.instagram.com/shlokkalangutkar?utm_source=qr",
-        batch: "2024"
-    },
-    {
-        id: "25",
-        name: "Shashwat Sanskrit",
-        img: ma_shashwat,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/shashwat-sankrit-4792b7311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        github: null,
-        insta: "https://www.instagram.com/shashwayy.7?igsh=MXBxaWJ3a2FocjN3bQ%3D%3D&utm_source=qr",
         batch: "2024"
     },
     {
@@ -542,7 +624,6 @@ import s5 from "../../assets/images/Team/2023/Software/s5.webp";
 import s7 from "../../assets/images/Team/2023/Software/s7.webp";
 import s_adhyatma from "../../assets/images/Team/2024/Software/s_adhyatma.webp";
 import s_atharv from "../../assets/images/Team/2024/Software/s_atharv.webp";
-import s_dev from "../../assets/images/Team/2024/Software/s_dev.webp";
 import s_navya from "../../assets/images/Team/2024/Software/s_navya.webp";
 import s_pranjal from "../../assets/images/Team/2024/Software/s_pranjal.webp";
 
@@ -627,16 +708,6 @@ export const SoftwareTeam = [
         insta: "https://www.instagram.com/pranjjallgupta",
         batch: "2024"
     },
-    {
-        id: "12",
-        name: "Dev Dinesh Arora",
-        img: s_dev,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/dev-arora-397b4630a/",
-        github: "https://github.com/DevApparentlyCodes",
-        insta: "https://www.instagram.com/dev._arora/",
-        batch: "2024"
-    },
 ]
 
 
@@ -648,9 +719,7 @@ import m12 from "../../assets/images/Team/2023/Mechanical/m12.webp";
 import m13 from "../../assets/images/Team/2023/Mechanical/m13.webp";
 import m_avanish from "../../assets/images/Team/2024/Mechanical/m_avanish.webp";
 import m_hridbeg from "../../assets/images/Team/2024/Mechanical/m_hridbeg.webp";
-import m_jhanvi from "../../assets/images/Team/2024/Mechanical/m_jhanvi.webp";
 import m_kahan from "../../assets/images/Team/2024/Mechanical/m_kahan.webp";
-import m_ved from "../../assets/images/Team/2024/Mechanical/m_ved.webp";
 
 export const MechanicalTeam = [
     {
@@ -743,26 +812,6 @@ export const MechanicalTeam = [
         insta: "https://www.instagram.com/avanish.dd?igsh=d3A4ZDh2M3VxaXBi&utm_source=qr",
         batch: "2024"
     },
-    {
-        id: "16",
-        name: "Ved Patel",
-        img: m_ved,
-        position: "Member",
-        linkedin: null,
-        github: null,
-        insta: "https://www.instagram.com/_vedpatel15?igsh=MTg1MnhtaXY2dG1vZg%3D%3D&utm_source=qr",
-        batch: "2024"
-    },
-    {
-        id: "17",
-        name: "Jhanvi",
-        img: m_jhanvi,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/jhanvi-matta-aa455b280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        github: null,
-        insta: null,
-        batch: "2024"
-    },
 ]
 
 import e1 from "../../assets/images/Team/2022/Electrical/e1.webp";
@@ -770,7 +819,6 @@ import e2 from "../../assets/images/Team/2023/Electrical/e2.webp";
 import e7 from "../../assets/images/Team/2023/Electrical/e7.webp";
 import e_aditya from "../../assets/images/Team/2024/Electrical/e_aditya.webp";
 import e_krish from "../../assets/images/Team/2024/Electrical/e_krish.webp";
-import e_prasham from "../../assets/images/Team/2024/Electrical/e_prasham.webp";
 
 export const ElectricalTeam = [
     {
@@ -811,16 +859,6 @@ export const ElectricalTeam = [
         linkedin: "https://www.linkedin.com/in/krish-jain-572a67241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         github: null,
         insta: "https://www.instagram.com/krish18j?igsh=c2x4Mm4zYjI4azY4",
-        batch: "2024"
-    },
-    {
-        id: "7",
-        name: "Prasham Agarwal",
-        img: e_prasham,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/prasham-agarwal-2044a7316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        github: null,
-        insta: "https://www.instagram.com/prasham_agarwal?igsh=Ymo5NXVodzAxMDVl",
         batch: "2024"
     },
     {
