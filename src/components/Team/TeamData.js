@@ -195,7 +195,7 @@ export const BoardTeam = [
         position1: "Electrical Lead",
         linkedin: "https://www.linkedin.com/in/vibhav-jain-203949323/",
         github: null,
-        insta: "https://www.instagram.com/vibhav.07_?igsh=MWRrMmdnMHBxd3BqbA==",
+        insta: "https://www.instagram.com/vibhavj.07",
         team: "tech"
     },
     {
