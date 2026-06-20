@@ -1,7 +1,6 @@
 import React from "react";
 import "./footer.scss";
 import { HashLink } from 'react-router-hash-link';
-import { animateScroll as scroll } from "react-scroll";
 import { Link } from 'react-router-dom';
 import Developer from "../Developer/Developer";
 
@@ -49,7 +48,7 @@ export default function Footer() {
                     <img src={triColor}></img>
                 </a>
             </div>
-            <div className="scrollTop" onClick={() => scroll.scrollToTop()}>
+            <div className="scrollTop" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="80" viewBox="0 0 24 24"><path d="M11 8.414V18h2V8.414l4.293 4.293 1.414-1.414L12 4.586l-6.707 6.707 1.414 1.414z"></path></svg>
             </div>
         </div>

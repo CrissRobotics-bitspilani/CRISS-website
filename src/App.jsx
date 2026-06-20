@@ -19,15 +19,6 @@ const Developer = lazy(() => import("./components/Developer/Developer"));
 ReactGA.initialize("G-N42MZLRJ3F");
 
 function App() {
-    // const [showLoader, setShowLoader] = useState(true);
-
-    // useEffect(() => {
-    //     const timer = setTimeout(() => {
-    //         setShowLoader(false);
-    //     }, 1500);
-
-    //     return () => clearTimeout(timer);
-    // }, []);
 
     return (
         <>

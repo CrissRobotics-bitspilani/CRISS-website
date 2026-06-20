@@ -56,7 +56,7 @@ export default function FlippingCard({ profile, name, position1, position2, posi
                     <div className="back" key="back" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                         <div className="position">
                             <p id="position1">{position1}</p>
-                            <p style={{ visibility: (position2 === null) ? "hidden" : null }}>{position2}</p>
+                            <p id="position2" style={{ visibility: (position2 === null) ? "hidden" : null }}>{position2}</p>
                             <p style={{ visibility: (position3 === null) ? "hidden" : null }}>{position3}</p>
                         </div>
                         <div className="social">
