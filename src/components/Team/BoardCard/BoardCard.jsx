@@ -27,6 +27,7 @@ export default function BoardCard({ profile, name, position1, position2, positio
                     <img
                         src={profile}
                         alt={name}
+                        loading="lazy"
                         onLoad={() => setIsLoaded(true)}
                         style={{
                             opacity: isLoaded ? 1 : 0,

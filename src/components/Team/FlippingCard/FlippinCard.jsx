@@ -38,6 +38,7 @@ export default function FlippingCard({ profile, name, position1, position2, posi
                             <img
                                 src={profile}
                                 alt={name}
+                                loading="lazy"
                                 onLoad={() => setIsLoaded(true)}
                                 style={{
                                     opacity: isLoaded ? 1 : 0,
