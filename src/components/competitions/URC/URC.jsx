@@ -40,7 +40,7 @@ export default function urc() {
                 <motion.p {...slideAnimation("right", 0.5)} className={styles.urcText}><span>The University Rover Challenge (URC)</span> is the world's premier robotics competition for college students.  Held annually in the desert of southern Utah in the United States, URC challenges student teams to design and build the next generation of <span>Mars rovers</span> that will one day work alongside astronauts exploring the Red Planet. Teams are evaluated on the rover’s design, functionality, and ability to navigate difficult terrains, collect samples, and perform autonomous tasks.</motion.p>
             </div>
 
-            <div className={styles.videoMain} {...slideAnimation("up", 0.5)}>
+            {/*      <div className={styles.videoMain} {...slideAnimation("up", 0.5)}>
                 <iframe
                     className={styles.vid}
 
@@ -51,7 +51,7 @@ export default function urc() {
                     referrerpolicy="strict-origin-when-cross-origin" 
                     allowfullscreen>
                 </iframe>
-            </div>
+            </div>  */}
 
             {/* <motion.div className={styles.videoMain} {...slideAnimation("left", 0.3)}>
                 <video className={styles.vid} src={URCVIDEO} autoPlay loop ></video>
