@@ -40,7 +40,7 @@ export default function irc() {
                 <motion.p  {...slideAnimation("right", 0.5)} className={styles.ircText}><span>The International Rover Challenge</span> (formerly known as the Indian Rover Challenge), organized by the Space Robotics Society, is an annual robotics competition designed to provide students worldwide with an engineering challenge in the realm of space exploration. Distinguished as the sole competition of its kind in the Asia-Pacific region, the IRC serves the critical objective of fostering innovation and inspiring aspiring engineers. Participants are tasked with the mission of designing and constructing advanced Mars Rovers, with the ultimate goal of competing in simulated Martian conditions. This competition serves as a platform for college students to showcase their skills and ingenuity in the pursuit of advancing space exploration technologies.</motion.p>
             </div>
 
-            <div className={styles.videoMain} {...slideAnimation("up", 0.5)}>
+            {/*   <div className={styles.videoMain} {...slideAnimation("up", 0.5)}>
                 <iframe
                     className={styles.vid}
                     src="https://www.youtube.com/embed/Lyqm1RDACO8?si=_tD9ClRxcVGcsCnu" 
@@ -50,7 +50,7 @@ export default function irc() {
                     referrerpolicy="strict-origin-when-cross-origin" 
                     allowfullscreen>
                 </iframe>
-            </div>
+            </div> */}
 
             {/* <motion.div className={styles.videoMain} {...slideAnimation("left", 0.3)}>
                 <video className={styles.vid} src={IRCVIDEO} autoPlay loop></video>
