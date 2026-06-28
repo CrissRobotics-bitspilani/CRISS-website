@@ -18,9 +18,11 @@ export default function FlippingCard({ profile, name, position1, position2, posi
 
     return (
         <motion.div {...HeadAnimation("up", 0.1)} >
-            <div className="flipCard">
+            <div className="flipCard"
+            onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
+            >
                 <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-                    <div className="front" key="front" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                    <div className="front" key="front" >
                         <div className="imgContainer" style={{ position: "relative" }}>
                             {!isLoaded && (
                                 <div
@@ -54,7 +56,7 @@ export default function FlippingCard({ profile, name, position1, position2, posi
                         <div className="name">{name}</div>
                     </div>
 
-                    <div className="back" key="back" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                    <div className="back" key="back" >
                         <div className="position">
                             <p id="position1">{position1}</p>
                             <p id="position2" style={{ visibility: (position2 === null) ? "hidden" : null }}>{position2}</p>
