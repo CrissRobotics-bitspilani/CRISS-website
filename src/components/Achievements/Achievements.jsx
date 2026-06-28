@@ -16,16 +16,28 @@ import robofest from "../../assets/images/Achievements/Logo/robofest.png";
 const achievements = [
     {
         id: 1,
+        year: "2026",
+        title: "Australian Rover Challenge 2026",
+        description: "CRISS Robotics achieved a historic milestone by becoming the first and only Indian team to receive an invitation to participate in the Australian Rover Challenge 2026. This recognition reflects the team's consistent excellence in rover engineering, innovation, and its growing presence in the global robotics community.",
+        award: "First and Only Indian Team Invited – Australian Rover Challenge 2026",
+        image: null,
+        logo: arch,
+        side: "left"
+      
+        
+    },
+    {
+        id: 2,
         year: '2025',
         title: 'European Rover Challenge 2025',
         description: 'In the European Rover Challenge 2025, our team delivered a remarkable performance by securing 1st place in Asia and finishing 2nd internationally. This achievement highlights our continuous improvement in rover autonomy, navigation, and mission reliability at a highly competitive global platform.',
-        award: '1st in Asia, 2nd Internationally – ERC 2025',
+        award: '2nd in Asia, 3rd Internationally – ERC 2025',
         image: null,
         logo: erc,
         side: 'left'
     },
     {
-        id: 2,
+        id: 3,
         year: '2025',
         title: 'International Rover Design Challenge 2025',
         description: 'At the International Rover Design Challenge 2025, our team secured 3rd Rank overall, showcasing strong advancements in rover mechanics, electronics integration, and mission strategy. This result reflects our team’s consistent growth and dedication to high-performance rover engineering.',
@@ -35,7 +47,7 @@ const achievements = [
         side: 'right'
     },
     {
-        id: 3,
+        id: 4,
         year: '2025',
         title: 'Gujarat Robofest 4.0',
         description: 'We successfully cleared the ideation phase (Level 1) at Gujarat Robofest 4.0 and were selected for Level 2, which is currently in progress. Our innovative concept and technical feasibility earned us a prize money of ₹2.5 Lakhs, validating the real-world impact and scalability of our solution.',
@@ -45,7 +57,7 @@ const achievements = [
         side: 'left'
     },
     {
-        id: 4,
+        id: 5,
         year: '2024',
         title: 'International Rover Challenge 2024',
         description: 'During the International Rover Challenge 2024, we were honored with the Best Business Plan Award for our detailed rover commercialization and sustainability strategy. Competing against top international teams, we secured an overall rank of 10th and finished 2nd in the PIMA evaluation, reflecting our strong balance of technical execution and strategic planning.',
@@ -55,7 +67,7 @@ const achievements = [
         side: 'right'
     },
     {
-        id: 5,
+        id: 6,
         year: '2023',
         title: 'European Rover Challenge 2023',
         description: 'At the European Rover Challenge 2023, our team demonstrated strong technical excellence and operational reliability, finishing 2nd in Asia and 5th Worldwide. Additionally, we were recognized with the Best in Maintenance award for our rover’s modular design, quick servicing capability, and sustained performance during missions.',
@@ -65,7 +77,7 @@ const achievements = [
         side: 'left'
     },
     {
-        id: 6,
+        id: 7,
         year: '2023',
         title: 'International Rover Design Challenge 2023',
         description: 'Our team achieved an outstanding milestone at the International Rover Design Challenge (IRDC) 2023 by securing 1st Rank with our Curie Rover. The competition evaluated rover design, innovation, and mission execution, and our rover stood out for its robust engineering, system integration, and performance across multiple challenge scenarios.',
