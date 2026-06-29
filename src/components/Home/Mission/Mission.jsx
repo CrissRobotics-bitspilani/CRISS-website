@@ -11,12 +11,12 @@ export default function Mission() {
                 <div className="left">
                     <h2>Our<span>Mission</span></h2>
                     <p>We as a team are interested in research about space and robotics. Our current goal is to design
-                        and develop rovers to compete in global student competitions such as <span>IRC </span>(International Rover Challenge), <span>IRDC </span>(International Rover Design Challenge), <span>URC </span>(University Rover Challenge)
+                        and develop rovers to compete in global student competitions such as <span>IRC </span>(International Rover Challenge), <span>ARCh </span>(Australian Rover Challenge), <span>URC </span>(University Rover Challenge)
                     </p>
                     <div className="mobileContainer">
                         <img src={missionImg}></img>
                         <div id="para">We as a team are interested in research about space and robotics. Our current goal is to design
-                            and develop rovers to compete in global student competitions such as <span>IRC </span>(International Rover Challenge), <span>IRDC </span>(International Rover Design Challenge), <span>URC </span>(University Rover Challenge)
+                            and develop rovers to compete in global student competitions such as <span>IRC </span>(International Rover Challenge), <span>ARCh </span>(Australian Rover Challenge), <span>URC </span>(University Rover Challenge)
                         </div>
                     </div>
                 </div>
