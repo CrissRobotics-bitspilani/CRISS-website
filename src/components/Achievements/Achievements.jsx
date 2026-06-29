@@ -12,6 +12,7 @@ import { slideAnimation } from "../Header/Motion/Motion";
 import erc from "../../assets/images/Achievements/Logo/erc.jpg";
 import irdc from "../../assets/images/Achievements/Logo/irc.png";
 import robofest from "../../assets/images/Achievements/Logo/robofest.png";
+import arch from "../../assets/images/Achievements/Logo/arch.png"
 
 const achievements = [
     {
@@ -22,7 +23,7 @@ const achievements = [
         award: "First and Only Indian Team Invited – Australian Rover Challenge 2026",
         image: null,
         logo: arch,
-        side: "left"
+        side: "right"
       
         
     },
