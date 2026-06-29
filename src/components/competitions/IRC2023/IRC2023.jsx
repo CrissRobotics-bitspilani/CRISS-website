@@ -1,6 +1,6 @@
 import React from "react";
 import styles from  "./IRC2023.module.scss";
-import aboutPic from "../../../assets/images/Homepage/about.jpeg";
+import aboutPic from "../../../assets/images/Competitions/IRC24.jpeg";
 
 export default function IRC2023() {
 
