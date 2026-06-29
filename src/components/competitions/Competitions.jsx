@@ -33,7 +33,7 @@ export default function competitions(){
             
             <div class={styles.competitionsContainer}>
                 <section>
-                    <h2 className={styles.topHeading}>Compe<span>titons</span></h2>
+                    <h2 className={styles.topHeading}>Compe<span>titions</span></h2>
                     <menu>
                         <TabButton isSelected={selectedteam === 'irc'} onSelect={() => handleSelect('irc')}>IRC</TabButton>
                         <TabButton isSelected={selectedteam === 'erc'} onSelect={() => handleSelect('erc')}>ERC</TabButton>
