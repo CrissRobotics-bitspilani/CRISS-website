@@ -19,8 +19,7 @@ import speedacc from "../../assets/images/Homepage/speedacc.png";
 import optica from "../../assets/images/Homepage/optica.webp";
 import srt from "../../assets/images/Homepage/srt.png";
 import dwart from "../../assets/images/Homepage/dwart.jpg";
-//import brochureImg from "../../assets/images/Sponsorship/image 22.png";//
-import brochureImg from "../../assets/images/Sponsorship/image 22_1.png";
+import brochureImg from "../../assets/images/Sponsorship/image 22.png";
 
 import Navbar from "../Header/Navbar/Navbar";
 import Footer from "../Footer/Footer";
