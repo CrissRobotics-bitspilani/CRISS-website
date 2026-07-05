@@ -210,7 +210,7 @@ export default function Sponsorship() {
                 <div className={styles.brochure}>
                     <h3>How Can You Support Us ?</h3>
                     <div className={styles.brochureContent}>
-                        <a className={styles.brochureLink} href="https://online.fliphtml5.com/zusvs/vefu/" target="_blank">
+                        <a className={styles.brochureLink} href="https://www.canva.com/design/DAHDHo7Pfzo/z4ReVOVhjB1UhGqc6ISp9w/view" target="_blank">
                             <motion.img
                                 {...slideAnimation("left", 0.5)}
                                 src={brochureImg}

@@ -24,14 +24,12 @@ const achievements = [
         image: null,
         logo: arch,
         side: "right"
-      
-        
     },
     {
         id: 2,
         year: '2025',
         title: 'European Rover Challenge 2025',
-        description: 'In the European Rover Challenge 2025, our team delivered a remarkable performance by securing 1st place in Asia and finishing 2nd internationally. This achievement highlights our continuous improvement in rover autonomy, navigation, and mission reliability at a highly competitive global platform.',
+        description: 'In the European Rover Challenge 2025, our team delivered a remarkable performance by securing 2nd place in Asia and finishing 3rd internationally. This achievement highlights our continuous improvement in rover autonomy, navigation, and mission reliability at a highly competitive global platform.',
         award: '2nd in Asia, 3rd Internationally – ERC 2025',
         image: null,
         logo: erc,
