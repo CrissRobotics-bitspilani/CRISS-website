@@ -3,18 +3,14 @@ header {
 }
 
 @media screen and (max-width: 1000px) {
-
   header {
     height: 7rem;
   }
-
 }
-
 
 h1 span {
   color: #14a1e8;
 }
-
 
 .sponsorshipContainers {
   display: flex !important;
@@ -44,7 +40,7 @@ h1 span {
     padding: 4%;
     border-radius: 2.5rem;
 
-    @media(max-width: 1100px) {
+    @media (max-width: 1100px) {
       margin: 0rem 2rem;
       padding: 2rem;
     }
@@ -56,7 +52,7 @@ h1 span {
       font-weight: 500;
       line-height: 30px;
 
-      @media(max-width: 600px) {
+      @media (max-width: 600px) {
         font-size: 14px;
         line-height: 26px;
         text-align: left;
@@ -66,18 +62,18 @@ h1 span {
     p:first-child {
       padding-bottom: 20px;
 
-      @media(max-width: 600px) {
+      @media (max-width: 600px) {
         padding-bottom: 12px;
       }
     }
 
     h3 {
       font-size: 40px;
-      color: #00275B;
+      color: #00275b;
       font-weight: bolder;
       padding-bottom: 30px;
 
-      @media(max-width: 600px) {
+      @media (max-width: 600px) {
         font-size: 30px;
         padding-bottom: 25px;
       }
@@ -88,7 +84,7 @@ h1 span {
       color: #000;
       font-size: 24px;
 
-      @media(max-width: 600px) {
+      @media (max-width: 600px) {
         font-size: 20px;
       }
     }
@@ -99,7 +95,7 @@ h1 span {
       font-size: 24px;
       text-transform: uppercase;
 
-      @media(max-width: 600px) {
+      @media (max-width: 600px) {
         font-size: 20px;
       }
     }
@@ -115,16 +111,16 @@ h1 span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px solid #00275B;
+    border: 3px solid #00275b;
     gap: 4rem;
 
-    @media(max-width: 1100px) {
+    @media (max-width: 1100px) {
       margin: 6rem 2rem;
       padding: 2rem;
       gap: 3.5rem;
     }
 
-    @media(max-width: 600px) {
+    @media (max-width: 600px) {
       gap: 20px;
     }
 
@@ -135,7 +131,7 @@ h1 span {
       padding-bottom: 30px;
       text-align: center;
 
-      @media(max-width: 600px) {
+      @media (max-width: 600px) {
         font-size: 30px;
         padding-bottom: 0px;
       }
@@ -146,7 +142,7 @@ h1 span {
       flex-direction: row;
       gap: 4rem;
 
-      @media(max-width: 850px) {
+      @media (max-width: 850px) {
         flex-direction: column-reverse;
       }
 
@@ -157,7 +153,7 @@ h1 span {
         font-weight: 500;
         line-height: 30px;
 
-        @media(max-width: 600px) {
+        @media (max-width: 600px) {
           font-size: 14px;
           line-height: 26px;
         }
@@ -167,7 +163,7 @@ h1 span {
         width: 400px;
         height: auto;
 
-        @media(max-width: 850px) {
+        @media (max-width: 850px) {
           display: none;
         }
       }
@@ -176,7 +172,7 @@ h1 span {
         height: 250px;
         width: auto;
 
-        @media(max-width: 850px) {
+        @media (max-width: 850px) {
           display: none;
         }
       }
@@ -189,14 +185,14 @@ h1 span {
     .mobilePic {
       display: none;
 
-      @media(max-width: 850px) {
+      @media (max-width: 850px) {
         display: block;
         height: 300px;
         width: auto;
         border-radius: 1.3rem;
       }
 
-      @media(max-width: 600px) {
+      @media (max-width: 600px) {
         width: calc(100vw - 4rem);
         height: auto;
       }
@@ -214,7 +210,7 @@ h1 span {
       margin-bottom: 6rem;
       font-style: italic;
 
-      @media(max-width: 600px) {
+      @media (max-width: 600px) {
         padding: 0 3rem;
         font-size: 16px;
         margin-bottom: 4rem;
@@ -228,7 +224,7 @@ h1 span {
       font-weight: bolder;
       color: #000;
 
-      @media(max-width: 600px) {
+      @media (max-width: 600px) {
         font-size: 32px;
         margin-bottom: 3rem;
       }
@@ -251,7 +247,7 @@ h1 span {
       padding-bottom: 30px;
       text-align: center;
 
-      @media(max-width: 600px) {
+      @media (max-width: 600px) {
         font-size: 30px;
         padding-bottom: 25px;
       }
@@ -265,17 +261,19 @@ h1 span {
       gap: 7rem;
       max-width: 1200px;
 
-      @media(max-width: 1050px) {
+      @media (max-width: 1050px) {
         padding: 0 2rem;
         gap: 5rem;
       }
 
-      @media(max-width: 600px) {
+      @media (max-width: 600px) {
         flex-direction: column-reverse;
       }
 
       .brochureLink {
         img {
+          width: 300px;
+          height: auto;
           cursor: pointer;
         }
 
@@ -300,7 +298,7 @@ h1 span {
             color: #00275b;
             padding-bottom: 6px;
 
-            @media(max-width: 600px) {
+            @media (max-width: 600px) {
               font-size: 20px;
               padding-bottom: 3px;
             }
@@ -311,7 +309,7 @@ h1 span {
             font-size: 16px;
             line-height: 20px;
 
-            @media(max-width: 600px) {
+            @media (max-width: 600px) {
               font-size: 14px;
               line-height: 18px;
             }

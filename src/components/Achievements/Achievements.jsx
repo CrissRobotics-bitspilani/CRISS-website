@@ -24,8 +24,6 @@ const achievements = [
         image: null,
         logo: arch,
         side: "right"
-      
-        
     },
     {
         id: 2,
