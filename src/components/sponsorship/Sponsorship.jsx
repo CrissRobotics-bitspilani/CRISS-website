@@ -212,7 +212,7 @@ export default function Sponsorship() {
           <div className={styles.brochureContent}>
             <a
               className={styles.brochureLink}
-              href="https://www.canva.com/design/DAHDHo7Pfzo/z4ReVOVhjB1UhGqc6ISp9w/view"
+              href="https://www.canva.com/design/DAHPAopqEA8/3tyNX4eCS1K-1qAIeoh-5A/view"
               target="_blank"
             >
               <motion.img
